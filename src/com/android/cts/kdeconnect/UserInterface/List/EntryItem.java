@@ -4,14 +4,14 @@
  * SPDX-License-Identifier: GPL-2.0-only OR GPL-3.0-only OR LicenseRef-KDE-Accepted-GPL
 */
 
-package org.kde.kdeconnect.UserInterface.List;
+package com.android.cts.kdeconnect.UserInterface.List;
 
 import android.view.LayoutInflater;
 import android.view.View;
 
 import androidx.annotation.NonNull;
 
-import org.kde.kdeconnect_tp.databinding.ListItemEntryBinding;
+import com.android.cts.kdeconnect_tp.databinding.ListItemEntryBinding;
 
 public class EntryItem implements ListAdapter.Item {
     protected final String title;

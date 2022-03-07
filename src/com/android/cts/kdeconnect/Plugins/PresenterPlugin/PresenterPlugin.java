@@ -4,7 +4,7 @@
  * SPDX-License-Identifier: GPL-2.0-only OR GPL-3.0-only OR LicenseRef-KDE-Accepted-GPL
 */
 
-package org.kde.kdeconnect.Plugins.PresenterPlugin;
+package com.android.cts.kdeconnect.Plugins.PresenterPlugin;
 
 
 import android.app.Activity;
@@ -15,12 +15,12 @@ import android.view.KeyEvent;
 import androidx.core.content.ContextCompat;
 
 import org.apache.commons.lang3.ArrayUtils;
-import org.kde.kdeconnect.NetworkPacket;
-import org.kde.kdeconnect.Plugins.Plugin;
-import org.kde.kdeconnect.Plugins.PluginFactory;
-import org.kde.kdeconnect_tp.R;
+import com.android.cts.kdeconnect.NetworkPacket;
+import com.android.cts.kdeconnect.Plugins.Plugin;
+import com.android.cts.kdeconnect.Plugins.PluginFactory;
+import com.android.cts.kdeconnect_tp.R;
 
-import static org.kde.kdeconnect.Plugins.MousePadPlugin.KeyListenerView.SpecialKeysMap;
+import static com.android.cts.kdeconnect.Plugins.MousePadPlugin.KeyListenerView.SpecialKeysMap;
 
 @PluginFactory.LoadablePlugin
 public class PresenterPlugin extends Plugin {

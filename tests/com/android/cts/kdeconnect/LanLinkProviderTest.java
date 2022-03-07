@@ -4,16 +4,16 @@
  * SPDX-License-Identifier: GPL-2.0-only OR GPL-3.0-only OR LicenseRef-KDE-Accepted-GPL
 */
 
-package org.kde.kdeconnect;
+package com.android.cts.kdeconnect;
 
 import android.util.Log;
 
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
-import org.kde.kdeconnect.Backends.LanBackend.LanLink;
-import org.kde.kdeconnect.Backends.LanBackend.LanLinkProvider;
-import org.kde.kdeconnect.Helpers.DeviceHelper;
+import com.android.cts.kdeconnect.Backends.LanBackend.LanLink;
+import com.android.cts.kdeconnect.Backends.LanBackend.LanLinkProvider;
+import com.android.cts.kdeconnect.Helpers.DeviceHelper;
 import org.mockito.Mockito;
 import org.powermock.api.mockito.PowerMockito;
 import org.powermock.core.classloader.annotations.PrepareForTest;

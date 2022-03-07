@@ -4,7 +4,7 @@
  * SPDX-License-Identifier: GPL-2.0-only OR GPL-3.0-only OR LicenseRef-KDE-Accepted-GPL
  */
 
-package org.kde.kdeconnect.Plugins.SftpPlugin;
+package com.android.cts.kdeconnect.Plugins.SftpPlugin;
 
 import android.content.Context;
 import android.net.Uri;
@@ -12,7 +12,7 @@ import android.util.Log;
 
 import org.apache.commons.io.FileUtils;
 import org.apache.sshd.common.file.nativefs.NativeSshFile;
-import org.kde.kdeconnect.Helpers.MediaStoreHelper;
+import com.android.cts.kdeconnect.Helpers.MediaStoreHelper;
 
 import java.io.File;
 import java.io.FileOutputStream;

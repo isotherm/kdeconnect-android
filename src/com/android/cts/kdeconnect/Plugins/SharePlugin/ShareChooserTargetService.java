@@ -4,7 +4,7 @@
  * SPDX-License-Identifier: GPL-2.0-only OR GPL-3.0-only OR LicenseRef-KDE-Accepted-GPL
 */
 
-package org.kde.kdeconnect.Plugins.SharePlugin;
+package com.android.cts.kdeconnect.Plugins.SharePlugin;
 
 import android.annotation.TargetApi;
 import android.content.ComponentName;
@@ -15,9 +15,9 @@ import android.service.chooser.ChooserTarget;
 import android.service.chooser.ChooserTargetService;
 import android.util.Log;
 
-import org.kde.kdeconnect.BackgroundService;
-import org.kde.kdeconnect.Device;
-import org.kde.kdeconnect_tp.R;
+import com.android.cts.kdeconnect.BackgroundService;
+import com.android.cts.kdeconnect.Device;
+import com.android.cts.kdeconnect_tp.R;
 
 import java.util.ArrayList;
 import java.util.List;

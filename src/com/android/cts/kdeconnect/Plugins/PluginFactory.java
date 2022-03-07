@@ -4,7 +4,7 @@
  * SPDX-License-Identifier: GPL-2.0-only OR GPL-3.0-only OR LicenseRef-KDE-Accepted-GPL
 */
 
-package org.kde.kdeconnect.Plugins;
+package com.android.cts.kdeconnect.Plugins;
 
 import android.content.Context;
 import android.graphics.drawable.Drawable;
@@ -12,7 +12,7 @@ import android.util.Log;
 
 import org.atteo.classindex.ClassIndex;
 import org.atteo.classindex.IndexAnnotated;
-import org.kde.kdeconnect.Device;
+import com.android.cts.kdeconnect.Device;
 
 import java.util.Collections;
 import java.util.HashSet;

@@ -4,7 +4,7 @@
  * SPDX-License-Identifier: GPL-2.0-only OR GPL-3.0-only OR LicenseRef-KDE-Accepted-GPL
  */
 
-package org.kde.kdeconnect.Plugins.MprisReceiverPlugin;
+package com.android.cts.kdeconnect.Plugins.MprisReceiverPlugin;
 
 import android.content.ComponentName;
 import android.media.session.MediaController;
@@ -21,14 +21,14 @@ import androidx.core.content.ContextCompat;
 import androidx.fragment.app.DialogFragment;
 
 import org.apache.commons.lang3.StringUtils;
-import org.kde.kdeconnect.Helpers.AppsHelper;
-import org.kde.kdeconnect.NetworkPacket;
-import org.kde.kdeconnect.Plugins.NotificationsPlugin.NotificationReceiver;
-import org.kde.kdeconnect.Plugins.Plugin;
-import org.kde.kdeconnect.Plugins.PluginFactory;
-import org.kde.kdeconnect.UserInterface.MainActivity;
-import org.kde.kdeconnect.UserInterface.StartActivityAlertDialogFragment;
-import org.kde.kdeconnect_tp.R;
+import com.android.cts.kdeconnect.Helpers.AppsHelper;
+import com.android.cts.kdeconnect.NetworkPacket;
+import com.android.cts.kdeconnect.Plugins.NotificationsPlugin.NotificationReceiver;
+import com.android.cts.kdeconnect.Plugins.Plugin;
+import com.android.cts.kdeconnect.Plugins.PluginFactory;
+import com.android.cts.kdeconnect.UserInterface.MainActivity;
+import com.android.cts.kdeconnect.UserInterface.StartActivityAlertDialogFragment;
+import com.android.cts.kdeconnect_tp.R;
 
 import java.util.HashMap;
 import java.util.List;

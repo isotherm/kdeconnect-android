@@ -4,14 +4,14 @@
  * SPDX-License-Identifier: GPL-2.0-only OR GPL-3.0-only OR LicenseRef-KDE-Accepted-GPL
  */
 
-package org.kde.kdeconnect.Plugins.SharePlugin;
+package com.android.cts.kdeconnect.Plugins.SharePlugin;
 
 import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
 import android.util.Log;
 
-import org.kde.kdeconnect.BackgroundService;
+import com.android.cts.kdeconnect.BackgroundService;
 
 public class ShareBroadcastReceiver extends BroadcastReceiver {
     @Override

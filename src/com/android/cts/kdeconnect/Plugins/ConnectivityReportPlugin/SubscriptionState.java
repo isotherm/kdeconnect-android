@@ -1,4 +1,4 @@
-package org.kde.kdeconnect.Plugins.ConnectivityReportPlugin;
+package com.android.cts.kdeconnect.Plugins.ConnectivityReportPlugin;
 
 public class SubscriptionState {
     final int subId;

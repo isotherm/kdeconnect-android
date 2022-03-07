@@ -4,7 +4,7 @@
  * SPDX-License-Identifier: GPL-2.0-only OR GPL-3.0-only OR LicenseRef-KDE-Accepted-GPL
  */
 
-package org.kde.kdeconnect.async;
+package com.android.cts.kdeconnect.async;
 
 import android.os.Handler;
 import android.os.Looper;

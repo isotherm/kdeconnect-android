@@ -4,7 +4,7 @@
  * SPDX-License-Identifier: GPL-2.0-only OR GPL-3.0-only OR LicenseRef-KDE-Accepted-GPL
  */
 
-package org.kde.kdeconnect.Plugins.TelephonyPlugin;
+package com.android.cts.kdeconnect.Plugins.TelephonyPlugin;
 
 import android.Manifest;
 import android.content.BroadcastReceiver;
@@ -22,11 +22,11 @@ import android.text.TextUtils;
 import android.util.Log;
 
 import org.apache.commons.lang3.ArrayUtils;
-import org.kde.kdeconnect.Helpers.ContactsHelper;
-import org.kde.kdeconnect.NetworkPacket;
-import org.kde.kdeconnect.Plugins.Plugin;
-import org.kde.kdeconnect.Plugins.PluginFactory;
-import org.kde.kdeconnect_tp.R;
+import com.android.cts.kdeconnect.Helpers.ContactsHelper;
+import com.android.cts.kdeconnect.NetworkPacket;
+import com.android.cts.kdeconnect.Plugins.Plugin;
+import com.android.cts.kdeconnect.Plugins.PluginFactory;
+import com.android.cts.kdeconnect_tp.R;
 
 import java.util.Map;
 import java.util.Timer;

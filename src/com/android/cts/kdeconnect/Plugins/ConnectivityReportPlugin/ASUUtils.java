@@ -4,7 +4,7 @@
  * SPDX-License-Identifier: Apache-2.0
  */
 
-package org.kde.kdeconnect.Plugins.ConnectivityReportPlugin;
+package com.android.cts.kdeconnect.Plugins.ConnectivityReportPlugin;
 
 import android.os.Build;
 import android.telephony.CellInfo;

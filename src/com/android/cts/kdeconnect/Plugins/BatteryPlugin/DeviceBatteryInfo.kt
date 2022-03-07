@@ -1,6 +1,6 @@
-package org.kde.kdeconnect.Plugins.BatteryPlugin
+package com.android.cts.kdeconnect.Plugins.BatteryPlugin
 
-import org.kde.kdeconnect.NetworkPacket
+import com.android.cts.kdeconnect.NetworkPacket
 
 /**
  * Specialised data representation of the packets received by [BatteryPlugin].

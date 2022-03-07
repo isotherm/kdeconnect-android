@@ -4,7 +4,7 @@
  * SPDX-License-Identifier: GPL-2.0-only OR GPL-3.0-only OR LicenseRef-KDE-Accepted-GPL
  */
 
-package org.kde.kdeconnect.Plugins.SharePlugin;
+package com.android.cts.kdeconnect.Plugins.SharePlugin;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -15,14 +15,14 @@ import android.view.MenuItem;
 import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.AppCompatActivity;
 
-import org.kde.kdeconnect.BackgroundService;
-import org.kde.kdeconnect.Device;
-import org.kde.kdeconnect.UserInterface.List.EntryItemWithIcon;
-import org.kde.kdeconnect.UserInterface.List.ListAdapter;
-import org.kde.kdeconnect.UserInterface.List.SectionItem;
-import org.kde.kdeconnect.UserInterface.ThemeUtil;
-import org.kde.kdeconnect_tp.R;
-import org.kde.kdeconnect_tp.databinding.ActivityShareBinding;
+import com.android.cts.kdeconnect.BackgroundService;
+import com.android.cts.kdeconnect.Device;
+import com.android.cts.kdeconnect.UserInterface.List.EntryItemWithIcon;
+import com.android.cts.kdeconnect.UserInterface.List.ListAdapter;
+import com.android.cts.kdeconnect.UserInterface.List.SectionItem;
+import com.android.cts.kdeconnect.UserInterface.ThemeUtil;
+import com.android.cts.kdeconnect_tp.R;
+import com.android.cts.kdeconnect_tp.databinding.ActivityShareBinding;
 
 import java.util.ArrayList;
 import java.util.Collection;

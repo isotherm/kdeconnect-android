@@ -1,4 +1,4 @@
-package org.kde.kdeconnect.Plugins.PhotoPlugin;
+package com.android.cts.kdeconnect.Plugins.PhotoPlugin;
 
 import android.content.Intent;
 import android.net.Uri;
@@ -9,7 +9,7 @@ import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.content.FileProvider;
 
-import org.kde.kdeconnect.BackgroundService;
+import com.android.cts.kdeconnect.BackgroundService;
 
 import java.io.File;
 import java.io.IOException;
@@ -34,7 +34,7 @@ public class PhotoActivity extends AppCompatActivity {
             // Continue only if the File was successfully created
             if (photoFile != null) {
                 photoURI = FileProvider.getUriForFile(this,
-                        "org.kde.kdeconnect_tp.fileprovider",
+                        "com.android.cts.kdeconnect_tp.fileprovider",
                         photoFile);
                 takePictureIntent.putExtra(MediaStore.EXTRA_OUTPUT, photoURI);
                 startActivityForResult(takePictureIntent, 1);

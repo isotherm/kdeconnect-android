@@ -1,4 +1,4 @@
-package org.kde.kdeconnect.Plugins.RunCommandPlugin;
+package com.android.cts.kdeconnect.Plugins.RunCommandPlugin;
 
 import android.net.Uri;
 import android.os.Bundle;
@@ -7,10 +7,10 @@ import android.util.Log;
 import android.view.Gravity;
 import android.widget.TextView;
 
-import org.kde.kdeconnect.BackgroundService;
-import org.kde.kdeconnect.Device;
-import org.kde.kdeconnect.UserInterface.ThemeUtil;
-import org.kde.kdeconnect_tp.R;
+import com.android.cts.kdeconnect.BackgroundService;
+import com.android.cts.kdeconnect.Device;
+import com.android.cts.kdeconnect.UserInterface.ThemeUtil;
+import com.android.cts.kdeconnect_tp.R;
 
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;

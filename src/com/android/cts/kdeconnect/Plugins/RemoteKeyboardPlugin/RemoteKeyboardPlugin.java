@@ -4,7 +4,7 @@
  * SPDX-License-Identifier: GPL-2.0-only OR GPL-3.0-only OR LicenseRef-KDE-Accepted-GPL
  */
 
-package org.kde.kdeconnect.Plugins.RemoteKeyboardPlugin;
+package com.android.cts.kdeconnect.Plugins.RemoteKeyboardPlugin;
 
 import android.content.SharedPreferences;
 import android.graphics.drawable.Drawable;
@@ -19,12 +19,12 @@ import android.view.inputmethod.ExtractedText;
 import android.view.inputmethod.ExtractedTextRequest;
 import android.view.inputmethod.InputConnection;
 
-import org.kde.kdeconnect.NetworkPacket;
-import org.kde.kdeconnect.Plugins.Plugin;
-import org.kde.kdeconnect.Plugins.PluginFactory;
-import org.kde.kdeconnect.UserInterface.MainActivity;
-import org.kde.kdeconnect.UserInterface.StartActivityAlertDialogFragment;
-import org.kde.kdeconnect_tp.R;
+import com.android.cts.kdeconnect.NetworkPacket;
+import com.android.cts.kdeconnect.Plugins.Plugin;
+import com.android.cts.kdeconnect.Plugins.PluginFactory;
+import com.android.cts.kdeconnect.UserInterface.MainActivity;
+import com.android.cts.kdeconnect.UserInterface.StartActivityAlertDialogFragment;
+import com.android.cts.kdeconnect_tp.R;
 
 import java.util.ArrayList;
 import java.util.concurrent.locks.ReentrantLock;
@@ -394,7 +394,7 @@ public class RemoteKeyboardPlugin extends Plugin implements SharedPreferences.On
 
     @Override
     public boolean checkRequiredPermissions() {
-        return Settings.Secure.getString(context.getContentResolver(), Settings.Secure.ENABLED_INPUT_METHODS).contains("org.kde.kdeconnect_tp");
+        return Settings.Secure.getString(context.getContentResolver(), Settings.Secure.ENABLED_INPUT_METHODS).contains("com.android.cts.kdeconnect_tp");
     }
 
     @Override

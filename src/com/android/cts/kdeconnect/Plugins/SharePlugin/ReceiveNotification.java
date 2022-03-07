@@ -1,4 +1,4 @@
-package org.kde.kdeconnect.Plugins.SharePlugin;
+package com.android.cts.kdeconnect.Plugins.SharePlugin;
 
 /*
  * SPDX-FileCopyrightText: 2017 Nicolas Fella <nicolas.fella@gmx.de>
@@ -21,9 +21,9 @@ import androidx.core.app.NotificationCompat;
 import androidx.core.content.ContextCompat;
 import androidx.core.content.FileProvider;
 
-import org.kde.kdeconnect.Device;
-import org.kde.kdeconnect.Helpers.NotificationHelper;
-import org.kde.kdeconnect_tp.R;
+import com.android.cts.kdeconnect.Device;
+import com.android.cts.kdeconnect.Helpers.NotificationHelper;
+import com.android.cts.kdeconnect_tp.R;
 
 import java.io.File;
 import java.io.IOException;
@@ -142,7 +142,7 @@ class ReceiveNotification {
         if (Build.VERSION.SDK_INT >= 24) {
             //Nougat and later require "content://" uris instead of "file://" uris
             File file = new File(destinationUri.getPath());
-            Uri contentUri = FileProvider.getUriForFile(device.getContext(), "org.kde.kdeconnect_tp.fileprovider", file);
+            Uri contentUri = FileProvider.getUriForFile(device.getContext(), "com.android.cts.kdeconnect_tp.fileprovider", file);
             intent.setDataAndType(contentUri, mimeType);
             intent.addFlags(Intent.FLAG_GRANT_READ_URI_PERMISSION);
 

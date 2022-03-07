@@ -4,7 +4,7 @@
  * SPDX-License-Identifier: GPL-2.0-only OR GPL-3.0-only OR LicenseRef-KDE-Accepted-GPL
  */
 
-package org.kde.kdeconnect.Plugins.NotificationsPlugin;
+package com.android.cts.kdeconnect.Plugins.NotificationsPlugin;
 
 import android.annotation.TargetApi;
 import android.app.Activity;
@@ -42,14 +42,14 @@ import org.apache.commons.collections4.multimap.ArrayListValuedHashMap;
 import org.apache.commons.lang3.ArrayUtils;
 import org.apache.commons.lang3.StringUtils;
 import org.json.JSONArray;
-import org.kde.kdeconnect.Helpers.AppsHelper;
-import org.kde.kdeconnect.NetworkPacket;
-import org.kde.kdeconnect.Plugins.Plugin;
-import org.kde.kdeconnect.Plugins.PluginFactory;
-import org.kde.kdeconnect.UserInterface.MainActivity;
-import org.kde.kdeconnect.UserInterface.PluginSettingsFragment;
-import org.kde.kdeconnect.UserInterface.StartActivityAlertDialogFragment;
-import org.kde.kdeconnect_tp.R;
+import com.android.cts.kdeconnect.Helpers.AppsHelper;
+import com.android.cts.kdeconnect.NetworkPacket;
+import com.android.cts.kdeconnect.Plugins.Plugin;
+import com.android.cts.kdeconnect.Plugins.PluginFactory;
+import com.android.cts.kdeconnect.UserInterface.MainActivity;
+import com.android.cts.kdeconnect.UserInterface.PluginSettingsFragment;
+import com.android.cts.kdeconnect.UserInterface.StartActivityAlertDialogFragment;
+import com.android.cts.kdeconnect_tp.R;
 
 import java.io.ByteArrayOutputStream;
 import java.security.MessageDigest;
@@ -220,7 +220,7 @@ public class NotificationsPlugin extends Plugin implements NotificationReceiver.
             return;
         }
 
-        if ("org.kde.kdeconnect_tp".equals(packageName)) {
+        if ("com.android.cts.kdeconnect_tp".equals(packageName)) {
             // Don't send our own notifications
             return;
         }

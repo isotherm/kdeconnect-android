@@ -4,7 +4,7 @@
  * SPDX-License-Identifier: GPL-2.0-only OR GPL-3.0-only OR LicenseRef-KDE-Accepted-GPL
  */
 
-package org.kde.kdeconnect.UserInterface.About
+package com.android.cts.kdeconnect.UserInterface.About
 
 import android.annotation.SuppressLint
 import android.content.Intent
@@ -16,10 +16,10 @@ import android.view.ViewGroup
 import android.widget.FrameLayout
 import androidx.core.content.ContextCompat
 import androidx.fragment.app.Fragment
-import org.kde.kdeconnect.UserInterface.List.ListAdapter
-import org.kde.kdeconnect.UserInterface.MainActivity
-import org.kde.kdeconnect_tp.R
-import org.kde.kdeconnect_tp.databinding.FragmentAboutBinding
+import com.android.cts.kdeconnect.UserInterface.List.ListAdapter
+import com.android.cts.kdeconnect.UserInterface.MainActivity
+import com.android.cts.kdeconnect_tp.R
+import com.android.cts.kdeconnect_tp.databinding.FragmentAboutBinding
 
 class AboutFragment : Fragment() {
     private var binding: FragmentAboutBinding? = null

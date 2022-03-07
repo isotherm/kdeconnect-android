@@ -1,14 +1,14 @@
-package org.kde.kdeconnect.Plugins.FindMyPhonePlugin;
+package com.android.cts.kdeconnect.Plugins.FindMyPhonePlugin;
 
 import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
 import android.util.Log;
 
-import org.kde.kdeconnect.BackgroundService;
+import com.android.cts.kdeconnect.BackgroundService;
 
 public class FindMyPhoneReceiver extends BroadcastReceiver {
-    final static String ACTION_FOUND_IT = "org.kde.kdeconnect.Plugins.FindMyPhonePlugin.foundIt";
+    final static String ACTION_FOUND_IT = "com.android.cts.kdeconnect.Plugins.FindMyPhonePlugin.foundIt";
     final static String EXTRA_DEVICE_ID = "deviceId";
 
     @Override

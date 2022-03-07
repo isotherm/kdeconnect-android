@@ -4,12 +4,12 @@
  * SPDX-License-Identifier: GPL-2.0-only OR GPL-3.0-only OR LicenseRef-KDE-Accepted-GPL
 */
 
-package org.kde.kdeconnect.Backends;
+package com.android.cts.kdeconnect.Backends;
 
 import android.content.Context;
 
-import org.kde.kdeconnect.Device;
-import org.kde.kdeconnect.NetworkPacket;
+import com.android.cts.kdeconnect.Device;
+import com.android.cts.kdeconnect.NetworkPacket;
 
 import java.security.PrivateKey;
 import java.util.ArrayList;

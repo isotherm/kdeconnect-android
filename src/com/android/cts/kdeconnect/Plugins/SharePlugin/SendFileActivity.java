@@ -4,7 +4,7 @@
  * SPDX-License-Identifier: GPL-2.0-only OR GPL-3.0-only OR LicenseRef-KDE-Accepted-GPL
  */
 
-package org.kde.kdeconnect.Plugins.SharePlugin;
+package com.android.cts.kdeconnect.Plugins.SharePlugin;
 
 import android.app.Activity;
 import android.content.ClipData;
@@ -15,9 +15,9 @@ import android.os.Bundle;
 import android.util.Log;
 import android.widget.Toast;
 
-import org.kde.kdeconnect.BackgroundService;
-import org.kde.kdeconnect.UserInterface.ThemeUtil;
-import org.kde.kdeconnect_tp.R;
+import com.android.cts.kdeconnect.BackgroundService;
+import com.android.cts.kdeconnect.UserInterface.ThemeUtil;
+import com.android.cts.kdeconnect_tp.R;
 
 import java.util.ArrayList;
 

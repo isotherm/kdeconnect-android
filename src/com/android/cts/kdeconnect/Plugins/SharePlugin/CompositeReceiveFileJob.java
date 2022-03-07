@@ -4,7 +4,7 @@
  * SPDX-License-Identifier: GPL-2.0-only OR GPL-3.0-only OR LicenseRef-KDE-Accepted-GPL
  */
 
-package org.kde.kdeconnect.Plugins.SharePlugin;
+package com.android.cts.kdeconnect.Plugins.SharePlugin;
 
 import android.app.DownloadManager;
 import android.content.ActivityNotFoundException;
@@ -20,12 +20,12 @@ import androidx.documentfile.provider.DocumentFile;
 
 import org.apache.commons.io.FilenameUtils;
 import org.apache.commons.io.IOUtils;
-import org.kde.kdeconnect.Device;
-import org.kde.kdeconnect.Helpers.FilesHelper;
-import org.kde.kdeconnect.Helpers.MediaStoreHelper;
-import org.kde.kdeconnect.NetworkPacket;
-import org.kde.kdeconnect.async.BackgroundJob;
-import org.kde.kdeconnect_tp.R;
+import com.android.cts.kdeconnect.Device;
+import com.android.cts.kdeconnect.Helpers.FilesHelper;
+import com.android.cts.kdeconnect.Helpers.MediaStoreHelper;
+import com.android.cts.kdeconnect.NetworkPacket;
+import com.android.cts.kdeconnect.async.BackgroundJob;
+import com.android.cts.kdeconnect_tp.R;
 
 import java.io.BufferedOutputStream;
 import java.io.File;
@@ -348,7 +348,7 @@ public class CompositeReceiveFileJob extends BackgroundJob<Device, Void> {
         if (Build.VERSION.SDK_INT >= 24) {
             //Nougat and later require "content://" uris instead of "file://" uris
             File file = new File(fileDocument.getUri().getPath());
-            Uri contentUri = FileProvider.getUriForFile(getDevice().getContext(), "org.kde.kdeconnect_tp.fileprovider", file);
+            Uri contentUri = FileProvider.getUriForFile(getDevice().getContext(), "com.android.cts.kdeconnect_tp.fileprovider", file);
             intent.setDataAndType(contentUri, mimeType);
             intent.addFlags(Intent.FLAG_GRANT_READ_URI_PERMISSION | Intent.FLAG_ACTIVITY_NEW_TASK);
         } else {

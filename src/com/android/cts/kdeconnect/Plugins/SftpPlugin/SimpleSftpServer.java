@@ -4,7 +4,7 @@
  * SPDX-License-Identifier: GPL-2.0-only OR GPL-3.0-only OR LicenseRef-KDE-Accepted-GPL
  */
 
-package org.kde.kdeconnect.Plugins.SftpPlugin;
+package com.android.cts.kdeconnect.Plugins.SftpPlugin;
 
 import android.content.Context;
 import android.util.Log;
@@ -19,10 +19,10 @@ import org.apache.sshd.server.kex.DHG14;
 import org.apache.sshd.server.kex.ECDHP384;
 import org.apache.sshd.server.session.ServerSession;
 import org.apache.sshd.server.sftp.SftpSubsystem;
-import org.kde.kdeconnect.Device;
-import org.kde.kdeconnect.Helpers.RandomHelper;
-import org.kde.kdeconnect.Helpers.SecurityHelpers.RsaHelper;
-import org.kde.kdeconnect.Helpers.SecurityHelpers.SslHelper;
+import com.android.cts.kdeconnect.Device;
+import com.android.cts.kdeconnect.Helpers.RandomHelper;
+import com.android.cts.kdeconnect.Helpers.SecurityHelpers.RsaHelper;
+import com.android.cts.kdeconnect.Helpers.SecurityHelpers.SslHelper;
 
 import java.io.IOException;
 import java.net.Inet4Address;

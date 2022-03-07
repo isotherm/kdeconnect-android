@@ -4,7 +4,7 @@
  * SPDX-License-Identifier: GPL-2.0-only OR GPL-3.0-only OR LicenseRef-KDE-Accepted-GPL
 */
 
-package org.kde.kdeconnect;
+package com.android.cts.kdeconnect;
 
 import android.content.Context;
 import android.util.Log;
@@ -13,8 +13,8 @@ import org.apache.commons.io.IOUtils;
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
-import org.kde.kdeconnect.Helpers.DeviceHelper;
-import org.kde.kdeconnect.Plugins.PluginFactory;
+import com.android.cts.kdeconnect.Helpers.DeviceHelper;
+import com.android.cts.kdeconnect.Plugins.PluginFactory;
 
 import java.io.ByteArrayInputStream;
 import java.io.IOException;

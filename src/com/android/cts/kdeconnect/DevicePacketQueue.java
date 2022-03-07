@@ -1,4 +1,4 @@
-package org.kde.kdeconnect;
+package com.android.cts.kdeconnect;
 
 import java.util.ArrayDeque;
 import java.util.Optional;

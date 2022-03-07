@@ -4,12 +4,12 @@
  * SPDX-License-Identifier: GPL-2.0-only OR GPL-3.0-only OR LicenseRef-KDE-Accepted-GPL
 */
 
-package org.kde.kdeconnect.Backends.LoopbackBackend;
+package com.android.cts.kdeconnect.Backends.LoopbackBackend;
 
 import android.content.Context;
 
-import org.kde.kdeconnect.Backends.BaseLinkProvider;
-import org.kde.kdeconnect.NetworkPacket;
+import com.android.cts.kdeconnect.Backends.BaseLinkProvider;
+import com.android.cts.kdeconnect.NetworkPacket;
 
 public class LoopbackLinkProvider extends BaseLinkProvider {
 

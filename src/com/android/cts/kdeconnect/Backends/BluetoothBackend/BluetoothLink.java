@@ -4,7 +4,7 @@
  * SPDX-License-Identifier: GPL-2.0-only OR GPL-3.0-only OR LicenseRef-KDE-Accepted-GPL
 */
 
-package org.kde.kdeconnect.Backends.BluetoothBackend;
+package com.android.cts.kdeconnect.Backends.BluetoothBackend;
 
 import android.bluetooth.BluetoothDevice;
 import android.content.Context;
@@ -14,10 +14,10 @@ import androidx.annotation.WorkerThread;
 
 import org.json.JSONException;
 import org.json.JSONObject;
-import org.kde.kdeconnect.Backends.BaseLink;
-import org.kde.kdeconnect.Backends.BasePairingHandler;
-import org.kde.kdeconnect.Device;
-import org.kde.kdeconnect.NetworkPacket;
+import com.android.cts.kdeconnect.Backends.BaseLink;
+import com.android.cts.kdeconnect.Backends.BasePairingHandler;
+import com.android.cts.kdeconnect.Device;
+import com.android.cts.kdeconnect.NetworkPacket;
 
 import java.io.IOException;
 import java.io.InputStream;

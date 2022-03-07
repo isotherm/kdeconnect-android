@@ -4,7 +4,7 @@
  * SPDX-License-Identifier: GPL-2.0-only OR GPL-3.0-only OR LicenseRef-KDE-Accepted-GPL
  */
 
-package org.kde.kdeconnect.Helpers;
+package com.android.cts.kdeconnect.Helpers;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
@@ -369,7 +369,7 @@ public class TelephonyHelper {
         private int mmsProxyPort = 80; // Default port should be 80 according to code comment in Android's ApnSettings.java
 
         public static class Builder {
-            private org.kde.kdeconnect.Helpers.TelephonyHelper.ApnSetting internalApnSetting;
+            private com.android.cts.kdeconnect.Helpers.TelephonyHelper.ApnSetting internalApnSetting;
 
             public Builder() {
                 internalApnSetting = new ApnSetting();

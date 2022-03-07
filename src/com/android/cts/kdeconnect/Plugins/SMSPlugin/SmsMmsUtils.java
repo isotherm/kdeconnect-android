@@ -5,7 +5,7 @@
  * SPDX-License-Identifier: GPL-2.0-only OR GPL-3.0-only OR LicenseRef-KDE-Accepted-GPL
  */
 
-package org.kde.kdeconnect.Plugins.SMSPlugin;
+package com.android.cts.kdeconnect.Plugins.SMSPlugin;
 
 import android.content.ContentResolver;
 import android.content.Context;
@@ -49,10 +49,10 @@ import androidx.annotation.RequiresApi;
 
 import org.apache.commons.lang3.ArrayUtils;
 import org.apache.commons.io.IOUtils;
-import org.kde.kdeconnect.Helpers.SMSHelper;
-import org.kde.kdeconnect.Helpers.TelephonyHelper;
-import org.kde.kdeconnect.NetworkPacket;
-import org.kde.kdeconnect_tp.R;
+import com.android.cts.kdeconnect.Helpers.SMSHelper;
+import com.android.cts.kdeconnect.Helpers.TelephonyHelper;
+import com.android.cts.kdeconnect.NetworkPacket;
+import com.android.cts.kdeconnect_tp.R;
 
 import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;

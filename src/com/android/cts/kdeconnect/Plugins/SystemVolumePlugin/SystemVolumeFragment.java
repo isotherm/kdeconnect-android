@@ -4,7 +4,7 @@
  * SPDX-License-Identifier: GPL-2.0-only OR GPL-3.0-only OR LicenseRef-KDE-Accepted-GPL
  */
 
-package org.kde.kdeconnect.Plugins.SystemVolumePlugin;
+package com.android.cts.kdeconnect.Plugins.SystemVolumePlugin;
 
 import android.content.Context;
 import android.os.Bundle;
@@ -22,12 +22,12 @@ import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.ListAdapter;
 import androidx.recyclerview.widget.RecyclerView;
 
-import org.kde.kdeconnect.BackgroundService;
-import org.kde.kdeconnect.Plugins.MprisPlugin.MprisPlugin;
-import org.kde.kdeconnect.Plugins.MprisPlugin.VolumeKeyListener;
-import org.kde.kdeconnect_tp.R;
-import org.kde.kdeconnect_tp.databinding.ListItemSystemvolumeBinding;
-import org.kde.kdeconnect_tp.databinding.SystemVolumeFragmentBinding;
+import com.android.cts.kdeconnect.BackgroundService;
+import com.android.cts.kdeconnect.Plugins.MprisPlugin.MprisPlugin;
+import com.android.cts.kdeconnect.Plugins.MprisPlugin.VolumeKeyListener;
+import com.android.cts.kdeconnect_tp.R;
+import com.android.cts.kdeconnect_tp.databinding.ListItemSystemvolumeBinding;
+import com.android.cts.kdeconnect_tp.databinding.SystemVolumeFragmentBinding;
 
 import java.util.ArrayList;
 import java.util.List;

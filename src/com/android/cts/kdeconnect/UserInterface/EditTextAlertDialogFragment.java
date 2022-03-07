@@ -4,7 +4,7 @@
  * SPDX-License-Identifier: GPL-2.0-only OR GPL-3.0-only OR LicenseRef-KDE-Accepted-GPL
  */
 
-package org.kde.kdeconnect.UserInterface;
+package com.android.cts.kdeconnect.UserInterface;
 
 import android.app.Dialog;
 import android.os.Bundle;
@@ -15,8 +15,8 @@ import androidx.annotation.StringRes;
 
 import com.google.android.material.textfield.TextInputEditText;
 
-import org.kde.kdeconnect_tp.R;
-import org.kde.kdeconnect_tp.databinding.EditTextAlertDialogViewBinding;
+import com.android.cts.kdeconnect_tp.R;
+import com.android.cts.kdeconnect_tp.databinding.EditTextAlertDialogViewBinding;
 
 public class EditTextAlertDialogFragment extends AlertDialogFragment {
     private static final String KEY_HINT_RES_ID = "HintResId";

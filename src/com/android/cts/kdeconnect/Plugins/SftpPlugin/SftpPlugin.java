@@ -4,7 +4,7 @@
  * SPDX-License-Identifier: GPL-2.0-only OR GPL-3.0-only OR LicenseRef-KDE-Accepted-GPL
 */
 
-package org.kde.kdeconnect.Plugins.SftpPlugin;
+package com.android.cts.kdeconnect.Plugins.SftpPlugin;
 
 import android.app.Activity;
 import android.content.ContentResolver;
@@ -17,13 +17,13 @@ import androidx.annotation.NonNull;
 
 import org.json.JSONException;
 import org.json.JSONObject;
-import org.kde.kdeconnect.NetworkPacket;
-import org.kde.kdeconnect.Plugins.Plugin;
-import org.kde.kdeconnect.Plugins.PluginFactory;
-import org.kde.kdeconnect.UserInterface.AlertDialogFragment;
-import org.kde.kdeconnect.UserInterface.DeviceSettingsAlertDialogFragment;
-import org.kde.kdeconnect.UserInterface.PluginSettingsFragment;
-import org.kde.kdeconnect_tp.R;
+import com.android.cts.kdeconnect.NetworkPacket;
+import com.android.cts.kdeconnect.Plugins.Plugin;
+import com.android.cts.kdeconnect.Plugins.PluginFactory;
+import com.android.cts.kdeconnect.UserInterface.AlertDialogFragment;
+import com.android.cts.kdeconnect.UserInterface.DeviceSettingsAlertDialogFragment;
+import com.android.cts.kdeconnect.UserInterface.PluginSettingsFragment;
+import com.android.cts.kdeconnect_tp.R;
 
 import java.io.File;
 import java.util.ArrayList;

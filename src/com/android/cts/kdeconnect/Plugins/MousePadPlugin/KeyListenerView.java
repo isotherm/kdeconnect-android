@@ -4,7 +4,7 @@
  * SPDX-License-Identifier: GPL-2.0-only OR GPL-3.0-only OR LicenseRef-KDE-Accepted-GPL
 */
 
-package org.kde.kdeconnect.Plugins.MousePadPlugin;
+package com.android.cts.kdeconnect.Plugins.MousePadPlugin;
 
 import android.content.Context;
 import android.util.AttributeSet;
@@ -14,8 +14,8 @@ import android.view.View;
 import android.view.inputmethod.EditorInfo;
 import android.view.inputmethod.InputConnection;
 
-import org.kde.kdeconnect.BackgroundService;
-import org.kde.kdeconnect.NetworkPacket;
+import com.android.cts.kdeconnect.BackgroundService;
+import com.android.cts.kdeconnect.NetworkPacket;
 
 public class KeyListenerView extends View {
 

@@ -1,4 +1,4 @@
-package org.kde.kdeconnect.UserInterface;
+package com.android.cts.kdeconnect.UserInterface;
 
 import android.content.Context;
 import android.content.Intent;
@@ -20,10 +20,10 @@ import androidx.preference.ListPreference;
 import com.google.android.material.snackbar.Snackbar;
 
 import org.apache.commons.io.IOUtils;
-import org.kde.kdeconnect.BackgroundService;
-import org.kde.kdeconnect.Helpers.DeviceHelper;
-import org.kde.kdeconnect.Helpers.NotificationHelper;
-import org.kde.kdeconnect_tp.R;
+import com.android.cts.kdeconnect.BackgroundService;
+import com.android.cts.kdeconnect.Helpers.DeviceHelper;
+import com.android.cts.kdeconnect.Helpers.NotificationHelper;
+import com.android.cts.kdeconnect_tp.R;
 
 import java.io.IOException;
 import java.io.InputStream;

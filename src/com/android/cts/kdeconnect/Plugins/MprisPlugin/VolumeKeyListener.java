@@ -1,4 +1,4 @@
-package org.kde.kdeconnect.Plugins.MprisPlugin;
+package com.android.cts.kdeconnect.Plugins.MprisPlugin;
 
 public interface VolumeKeyListener {
 

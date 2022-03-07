@@ -4,16 +4,16 @@
  * SPDX-License-Identifier: GPL-2.0-only OR GPL-3.0-only OR LicenseRef-KDE-Accepted-GPL
  */
 
-package org.kde.kdeconnect.Plugins.FindRemoteDevicePlugin;
+package com.android.cts.kdeconnect.Plugins.FindRemoteDevicePlugin;
 
 import android.app.Activity;
 
 import org.apache.commons.lang3.ArrayUtils;
-import org.kde.kdeconnect.NetworkPacket;
-import org.kde.kdeconnect.Plugins.FindMyPhonePlugin.FindMyPhonePlugin;
-import org.kde.kdeconnect.Plugins.Plugin;
-import org.kde.kdeconnect.Plugins.PluginFactory;
-import org.kde.kdeconnect_tp.R;
+import com.android.cts.kdeconnect.NetworkPacket;
+import com.android.cts.kdeconnect.Plugins.FindMyPhonePlugin.FindMyPhonePlugin;
+import com.android.cts.kdeconnect.Plugins.Plugin;
+import com.android.cts.kdeconnect.Plugins.PluginFactory;
+import com.android.cts.kdeconnect_tp.R;
 
 @PluginFactory.LoadablePlugin
 public class FindRemoteDevicePlugin extends Plugin {

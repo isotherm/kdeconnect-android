@@ -4,7 +4,7 @@
  * SPDX-License-Identifier: GPL-2.0-only OR GPL-3.0-only OR LicenseRef-KDE-Accepted-GPL
  */
 
-package org.kde.kdeconnect.Plugins.RemoteKeyboardPlugin;
+package com.android.cts.kdeconnect.Plugins.RemoteKeyboardPlugin;
 
 import android.content.Intent;
 import android.inputmethodservice.InputMethodService;
@@ -21,9 +21,9 @@ import android.widget.Toast;
 
 import androidx.core.content.ContextCompat;
 
-import org.kde.kdeconnect.UserInterface.MainActivity;
-import org.kde.kdeconnect.UserInterface.PluginSettingsActivity;
-import org.kde.kdeconnect_tp.R;
+import com.android.cts.kdeconnect.UserInterface.MainActivity;
+import com.android.cts.kdeconnect.UserInterface.PluginSettingsActivity;
+import com.android.cts.kdeconnect_tp.R;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -1,4 +1,4 @@
-package org.kde.kdeconnect.Plugins.MousePadPlugin;
+package com.android.cts.kdeconnect.Plugins.MousePadPlugin;
 
 
 public class PointerAccelerationProfileFactory {

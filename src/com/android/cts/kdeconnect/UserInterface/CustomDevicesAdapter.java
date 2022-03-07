@@ -4,7 +4,7 @@
  * SPDX-License-Identifier: GPL-2.0-only OR GPL-3.0-only OR LicenseRef-KDE-Accepted-GPL
  */
 
-package org.kde.kdeconnect.UserInterface;
+package com.android.cts.kdeconnect.UserInterface;
 
 import android.graphics.Canvas;
 import android.graphics.drawable.Drawable;
@@ -20,8 +20,8 @@ import androidx.core.widget.TextViewCompat;
 import androidx.recyclerview.widget.ItemTouchHelper;
 import androidx.recyclerview.widget.RecyclerView;
 
-import org.kde.kdeconnect_tp.R;
-import org.kde.kdeconnect_tp.databinding.CustomDeviceItemBinding;
+import com.android.cts.kdeconnect_tp.R;
+import com.android.cts.kdeconnect_tp.databinding.CustomDeviceItemBinding;
 
 import java.util.ArrayList;
 

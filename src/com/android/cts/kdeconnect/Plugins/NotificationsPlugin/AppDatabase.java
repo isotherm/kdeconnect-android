@@ -4,7 +4,7 @@
  * SPDX-License-Identifier: GPL-2.0-only OR GPL-3.0-only OR LicenseRef-KDE-Accepted-GPL
  */
 
-package org.kde.kdeconnect.Plugins.NotificationsPlugin;
+package com.android.cts.kdeconnect.Plugins.NotificationsPlugin;
 
 import android.content.ContentValues;
 import android.content.Context;

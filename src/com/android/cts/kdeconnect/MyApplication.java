@@ -1,4 +1,4 @@
-package org.kde.kdeconnect;
+package com.android.cts.kdeconnect;
 
 import androidx.annotation.NonNull;
 import androidx.lifecycle.DefaultLifecycleObserver;

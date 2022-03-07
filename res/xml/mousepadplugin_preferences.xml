@@ -57,7 +57,7 @@
         android:title="@string/mousepad_scroll_direction_title" />
 
 
-    <org.kde.kdeconnect.Helpers.LongSummaryPreferenceCategory
+    <com.android.cts.kdeconnect.Helpers.LongSummaryPreferenceCategory
         android:key="@string/sendkeystrokes_pref_category"
         android:summary="@string/sendkeystrokes_pref_category_summary"
         android:title="@string/sendkeystrokes_pref_category_title">
@@ -78,5 +78,5 @@
             android:summary="@string/sendkeystrokes_safe_text_enabled_summary"
             />
 
-    </org.kde.kdeconnect.Helpers.LongSummaryPreferenceCategory>
+    </com.android.cts.kdeconnect.Helpers.LongSummaryPreferenceCategory>
 </PreferenceScreen>

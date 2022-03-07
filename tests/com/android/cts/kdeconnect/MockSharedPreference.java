@@ -1,4 +1,4 @@
-package org.kde.kdeconnect;
+package com.android.cts.kdeconnect;
 
 import android.content.SharedPreferences;
 

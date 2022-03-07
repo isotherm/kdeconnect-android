@@ -3,7 +3,7 @@
  *
  * SPDX-License-Identifier: GPL-2.0-only OR GPL-3.0-only OR LicenseRef-KDE-Accepted-GPL
 */
-package org.kde.kdeconnect.Plugins.MprisPlugin
+package com.android.cts.kdeconnect.Plugins.MprisPlugin
 
 import android.content.Context
 import android.content.pm.PackageManager.NameNotFoundException
@@ -19,7 +19,7 @@ import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.GlobalScope
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext
-import org.kde.kdeconnect.NetworkPacket.Payload
+import com.android.cts.kdeconnect.NetworkPacket.Payload
 import java.io.File
 import java.io.IOException
 import java.io.InputStream

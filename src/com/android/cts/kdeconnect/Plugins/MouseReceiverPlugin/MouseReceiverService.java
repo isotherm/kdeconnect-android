@@ -4,7 +4,7 @@
  * SPDX-License-Identifier: GPL-2.0-only OR GPL-3.0-only OR LicenseRef-KDE-Accepted-GPL
  */
 
-package org.kde.kdeconnect.Plugins.MouseReceiverPlugin;
+package com.android.cts.kdeconnect.Plugins.MouseReceiverPlugin;
 
 import android.accessibilityservice.AccessibilityService;
 import android.accessibilityservice.GestureDescription;
@@ -26,7 +26,7 @@ import android.widget.ImageView;
 import androidx.annotation.RequiresApi;
 import androidx.core.content.ContextCompat;
 
-import org.kde.kdeconnect_tp.R;
+import com.android.cts.kdeconnect_tp.R;
 
 import java.util.ArrayDeque;
 import java.util.Deque;

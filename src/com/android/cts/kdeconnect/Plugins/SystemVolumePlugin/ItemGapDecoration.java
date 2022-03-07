@@ -1,4 +1,4 @@
-package org.kde.kdeconnect.Plugins.SystemVolumePlugin;
+package com.android.cts.kdeconnect.Plugins.SystemVolumePlugin;
 
 import android.graphics.Rect;
 import android.view.View;

@@ -4,7 +4,7 @@
  * SPDX-License-Identifier: GPL-2.0-only OR GPL-3.0-only OR LicenseRef-KDE-Accepted-GPL
 */
 
-package org.kde.kdeconnect;
+package com.android.cts.kdeconnect;
 
 import android.app.Notification;
 import android.app.NotificationManager;
@@ -27,15 +27,15 @@ import androidx.core.content.ContextCompat;
 import org.apache.commons.collections4.MultiValuedMap;
 import org.apache.commons.collections4.multimap.ArrayListValuedHashMap;
 import org.apache.commons.lang3.StringUtils;
-import org.kde.kdeconnect.Backends.BaseLink;
-import org.kde.kdeconnect.Backends.BasePairingHandler;
-import org.kde.kdeconnect.Helpers.DeviceHelper;
-import org.kde.kdeconnect.Helpers.NotificationHelper;
-import org.kde.kdeconnect.Helpers.SecurityHelpers.SslHelper;
-import org.kde.kdeconnect.Plugins.Plugin;
-import org.kde.kdeconnect.Plugins.PluginFactory;
-import org.kde.kdeconnect.UserInterface.MainActivity;
-import org.kde.kdeconnect_tp.R;
+import com.android.cts.kdeconnect.Backends.BaseLink;
+import com.android.cts.kdeconnect.Backends.BasePairingHandler;
+import com.android.cts.kdeconnect.Helpers.DeviceHelper;
+import com.android.cts.kdeconnect.Helpers.NotificationHelper;
+import com.android.cts.kdeconnect.Helpers.SecurityHelpers.SslHelper;
+import com.android.cts.kdeconnect.Plugins.Plugin;
+import com.android.cts.kdeconnect.Plugins.PluginFactory;
+import com.android.cts.kdeconnect.UserInterface.MainActivity;
+import com.android.cts.kdeconnect_tp.R;
 
 import java.security.KeyFactory;
 import java.security.PrivateKey;

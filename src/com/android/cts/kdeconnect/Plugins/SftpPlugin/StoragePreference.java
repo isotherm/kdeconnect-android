@@ -4,7 +4,7 @@
  * SPDX-License-Identifier: GPL-2.0-only OR GPL-3.0-only OR LicenseRef-KDE-Accepted-GPL
  */
 
-package org.kde.kdeconnect.Plugins.SftpPlugin;
+package com.android.cts.kdeconnect.Plugins.SftpPlugin;
 
 import android.content.Context;
 import android.os.Build;
@@ -18,7 +18,7 @@ import androidx.annotation.Nullable;
 import androidx.preference.DialogPreference;
 import androidx.preference.PreferenceViewHolder;
 
-import org.kde.kdeconnect_tp.R;
+import com.android.cts.kdeconnect_tp.R;
 
 public class StoragePreference extends DialogPreference {
     @Nullable

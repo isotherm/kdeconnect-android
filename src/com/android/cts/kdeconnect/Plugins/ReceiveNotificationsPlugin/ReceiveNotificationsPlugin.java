@@ -4,7 +4,7 @@
  * SPDX-License-Identifier: GPL-2.0-only OR GPL-3.0-only OR LicenseRef-KDE-Accepted-GPL
  */
 
-package org.kde.kdeconnect.Plugins.ReceiveNotificationsPlugin;
+package com.android.cts.kdeconnect.Plugins.ReceiveNotificationsPlugin;
 
 import android.app.Notification;
 import android.app.NotificationManager;
@@ -17,12 +17,12 @@ import android.util.Log;
 import androidx.core.app.NotificationCompat;
 import androidx.core.content.ContextCompat;
 
-import org.kde.kdeconnect.Helpers.NotificationHelper;
-import org.kde.kdeconnect.NetworkPacket;
-import org.kde.kdeconnect.Plugins.Plugin;
-import org.kde.kdeconnect.Plugins.PluginFactory;
-import org.kde.kdeconnect.UserInterface.MainActivity;
-import org.kde.kdeconnect_tp.R;
+import com.android.cts.kdeconnect.Helpers.NotificationHelper;
+import com.android.cts.kdeconnect.NetworkPacket;
+import com.android.cts.kdeconnect.Plugins.Plugin;
+import com.android.cts.kdeconnect.Plugins.PluginFactory;
+import com.android.cts.kdeconnect.UserInterface.MainActivity;
+import com.android.cts.kdeconnect_tp.R;
 
 import java.io.InputStream;
 

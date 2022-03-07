@@ -4,9 +4,9 @@
  * SPDX-License-Identifier: GPL-2.0-only OR GPL-3.0-only OR LicenseRef-KDE-Accepted-GPL
  */
 
-package org.kde.kdeconnect.Plugins.SharePlugin;
+package com.android.cts.kdeconnect.Plugins.SharePlugin;
 
-import org.kde.kdeconnect.NetworkPacket;
+import com.android.cts.kdeconnect.NetworkPacket;
 
 import java.io.OutputStream;
 

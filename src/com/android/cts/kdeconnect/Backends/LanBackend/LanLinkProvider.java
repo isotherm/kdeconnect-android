@@ -4,7 +4,7 @@
  * SPDX-License-Identifier: GPL-2.0-only OR GPL-3.0-only OR LicenseRef-KDE-Accepted-GPL
 */
 
-package org.kde.kdeconnect.Backends.LanBackend;
+package com.android.cts.kdeconnect.Backends.LanBackend;
 
 import android.content.Context;
 import android.content.SharedPreferences;
@@ -12,15 +12,15 @@ import android.preference.PreferenceManager;
 import android.util.Base64;
 import android.util.Log;
 
-import org.kde.kdeconnect.Backends.BaseLink;
-import org.kde.kdeconnect.Backends.BaseLinkProvider;
-import org.kde.kdeconnect.BackgroundService;
-import org.kde.kdeconnect.Device;
-import org.kde.kdeconnect.Helpers.DeviceHelper;
-import org.kde.kdeconnect.Helpers.SecurityHelpers.SslHelper;
-import org.kde.kdeconnect.Helpers.TrustedNetworkHelper;
-import org.kde.kdeconnect.NetworkPacket;
-import org.kde.kdeconnect.UserInterface.CustomDevicesActivity;
+import com.android.cts.kdeconnect.Backends.BaseLink;
+import com.android.cts.kdeconnect.Backends.BaseLinkProvider;
+import com.android.cts.kdeconnect.BackgroundService;
+import com.android.cts.kdeconnect.Device;
+import com.android.cts.kdeconnect.Helpers.DeviceHelper;
+import com.android.cts.kdeconnect.Helpers.SecurityHelpers.SslHelper;
+import com.android.cts.kdeconnect.Helpers.TrustedNetworkHelper;
+import com.android.cts.kdeconnect.NetworkPacket;
+import com.android.cts.kdeconnect.UserInterface.CustomDevicesActivity;
 
 import java.io.BufferedReader;
 import java.io.IOException;

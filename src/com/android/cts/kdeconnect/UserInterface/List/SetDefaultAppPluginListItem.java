@@ -3,9 +3,9 @@
  *
  * SPDX-License-Identifier: GPL-2.0-only OR GPL-3.0-only OR LicenseRef-KDE-Accepted-GPL
  */
-package org.kde.kdeconnect.UserInterface.List;
+package com.android.cts.kdeconnect.UserInterface.List;
 
-import org.kde.kdeconnect.Plugins.Plugin;
+import com.android.cts.kdeconnect.Plugins.Plugin;
 
 public class SetDefaultAppPluginListItem extends SmallEntryItem {
 

@@ -4,7 +4,7 @@
  * SPDX-License-Identifier: GPL-2.0-only OR GPL-3.0-only OR LicenseRef-KDE-Accepted-GPL
  */
 
-package org.kde.kdeconnect.Plugins.NotificationsPlugin;
+package com.android.cts.kdeconnect.Plugins.NotificationsPlugin;
 
 import android.content.Context;
 import android.content.SharedPreferences;
@@ -26,15 +26,15 @@ import android.widget.CheckedTextView;
 import android.widget.CompoundButton;
 import android.widget.ListView;
 
-import org.kde.kdeconnect.UserInterface.ThemeUtil;
+import com.android.cts.kdeconnect.UserInterface.ThemeUtil;
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.widget.TextViewCompat;
 
 import com.google.android.material.switchmaterial.SwitchMaterial;
 
-import org.kde.kdeconnect_tp.R;
-import org.kde.kdeconnect_tp.databinding.ActivityNotificationFilterBinding;
+import com.android.cts.kdeconnect_tp.R;
+import com.android.cts.kdeconnect_tp.databinding.ActivityNotificationFilterBinding;
 
 import java.util.Arrays;
 import java.util.List;

@@ -5,7 +5,7 @@
  * SPDX-License-Identifier: GPL-2.0-only OR GPL-3.0-only OR LicenseRef-KDE-Accepted-GPL
  */
 
-package org.kde.kdeconnect.Plugins.RunCommandPlugin;
+package com.android.cts.kdeconnect.Plugins.RunCommandPlugin;
 
 import android.content.ClipboardManager;
 import android.os.Build;
@@ -25,11 +25,11 @@ import androidx.core.content.ContextCompat;
 
 import org.json.JSONException;
 import org.json.JSONObject;
-import org.kde.kdeconnect.BackgroundService;
-import org.kde.kdeconnect.UserInterface.List.ListAdapter;
-import org.kde.kdeconnect.UserInterface.ThemeUtil;
-import org.kde.kdeconnect_tp.R;
-import org.kde.kdeconnect_tp.databinding.ActivityRunCommandBinding;
+import com.android.cts.kdeconnect.BackgroundService;
+import com.android.cts.kdeconnect.UserInterface.List.ListAdapter;
+import com.android.cts.kdeconnect.UserInterface.ThemeUtil;
+import com.android.cts.kdeconnect_tp.R;
+import com.android.cts.kdeconnect_tp.databinding.ActivityRunCommandBinding;
 
 import java.util.ArrayList;
 import java.util.Collections;

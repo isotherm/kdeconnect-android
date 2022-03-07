@@ -4,7 +4,7 @@
  * SPDX-License-Identifier: GPL-2.0-only OR GPL-3.0-only OR LicenseRef-KDE-Accepted-GPL
  */
 
-package org.kde.kdeconnect.Helpers;
+package com.android.cts.kdeconnect.Helpers;
 
 import android.app.Activity;
 import android.app.Notification;
@@ -13,8 +13,8 @@ import android.content.Context;
 import android.content.Intent;
 import android.os.Build;
 
-import org.kde.kdeconnect.MyApplication;
-import org.kde.kdeconnect_tp.R;
+import com.android.cts.kdeconnect.MyApplication;
+import com.android.cts.kdeconnect_tp.R;
 
 import androidx.core.app.NotificationCompat;
 import androidx.core.app.NotificationManagerCompat;

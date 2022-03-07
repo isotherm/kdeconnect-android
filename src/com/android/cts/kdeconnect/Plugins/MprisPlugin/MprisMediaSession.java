@@ -4,7 +4,7 @@
  * SPDX-License-Identifier: GPL-2.0-only OR GPL-3.0-only OR LicenseRef-KDE-Accepted-GPL
  */
 
-package org.kde.kdeconnect.Plugins.MprisPlugin;
+package com.android.cts.kdeconnect.Plugins.MprisPlugin;
 
 import android.app.NotificationManager;
 import android.app.PendingIntent;
@@ -23,11 +23,11 @@ import android.support.v4.media.session.MediaSessionCompat;
 import android.support.v4.media.session.PlaybackStateCompat;
 import android.util.Pair;
 
-import org.kde.kdeconnect.BackgroundService;
-import org.kde.kdeconnect.Device;
-import org.kde.kdeconnect.Helpers.NotificationHelper;
-import org.kde.kdeconnect.Plugins.NotificationsPlugin.NotificationReceiver;
-import org.kde.kdeconnect_tp.R;
+import com.android.cts.kdeconnect.BackgroundService;
+import com.android.cts.kdeconnect.Device;
+import com.android.cts.kdeconnect.Helpers.NotificationHelper;
+import com.android.cts.kdeconnect.Plugins.NotificationsPlugin.NotificationReceiver;
+import com.android.cts.kdeconnect_tp.R;
 
 import java.util.HashSet;
 
@@ -47,7 +47,7 @@ import androidx.media.app.NotificationCompat.MediaStyle;
  */
 public class MprisMediaSession implements SharedPreferences.OnSharedPreferenceChangeListener, NotificationReceiver.NotificationListener {
     private final static int MPRIS_MEDIA_NOTIFICATION_ID = 0x91b70463; // echo MprisNotification | md5sum | head -c 8
-    private final static String MPRIS_MEDIA_SESSION_TAG = "org.kde.kdeconnect_tp.media_session";
+    private final static String MPRIS_MEDIA_SESSION_TAG = "com.android.cts.kdeconnect_tp.media_session";
 
     private static final MprisMediaSession instance = new MprisMediaSession();
 

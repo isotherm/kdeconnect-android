@@ -4,7 +4,7 @@
  * SPDX-License-Identifier: GPL-2.0-only OR GPL-3.0-only OR LicenseRef-KDE-Accepted-GPL
 */
 
-package org.kde.kdeconnect.Helpers;
+package com.android.cts.kdeconnect.Helpers;
 
 import android.annotation.SuppressLint;
 import android.content.ContentResolver;
@@ -19,7 +19,7 @@ import android.webkit.MimeTypeMap;
 
 import org.apache.commons.io.FilenameUtils;
 import org.apache.commons.lang3.StringUtils;
-import org.kde.kdeconnect.NetworkPacket;
+import com.android.cts.kdeconnect.NetworkPacket;
 
 import java.io.File;
 import java.io.InputStream;

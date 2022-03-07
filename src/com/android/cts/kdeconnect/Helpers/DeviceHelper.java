@@ -4,7 +4,7 @@
  * SPDX-License-Identifier: GPL-2.0-only OR GPL-3.0-only OR LicenseRef-KDE-Accepted-GPL
 */
 
-package org.kde.kdeconnect.Helpers;
+package com.android.cts.kdeconnect.Helpers;
 
 import android.content.Context;
 import android.content.SharedPreferences;
@@ -16,7 +16,7 @@ import android.util.Log;
 
 import com.jaredrummler.android.device.DeviceName;
 
-import org.kde.kdeconnect.Device;
+import com.android.cts.kdeconnect.Device;
 
 public class DeviceHelper {
 

@@ -5,7 +5,7 @@
  * SPDX-License-Identifier: GPL-2.0-only OR GPL-3.0-only OR LicenseRef-KDE-Accepted-GPL
 */
 
-package org.kde.kdeconnect.Plugins.BigscreenPlugin;
+package com.android.cts.kdeconnect.Plugins.BigscreenPlugin;
 
 import android.Manifest;
 import android.app.Activity;
@@ -17,12 +17,12 @@ import android.view.View;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import org.kde.kdeconnect.BackgroundService;
-import org.kde.kdeconnect.UserInterface.MainActivity;
-import org.kde.kdeconnect.UserInterface.PermissionsAlertDialogFragment;
-import org.kde.kdeconnect.UserInterface.ThemeUtil;
-import org.kde.kdeconnect_tp.R;
-import org.kde.kdeconnect_tp.databinding.ActivityBigscreenBinding;
+import com.android.cts.kdeconnect.BackgroundService;
+import com.android.cts.kdeconnect.UserInterface.MainActivity;
+import com.android.cts.kdeconnect.UserInterface.PermissionsAlertDialogFragment;
+import com.android.cts.kdeconnect.UserInterface.ThemeUtil;
+import com.android.cts.kdeconnect_tp.R;
+import com.android.cts.kdeconnect_tp.databinding.ActivityBigscreenBinding;
 
 import java.util.ArrayList;
 import java.util.Objects;

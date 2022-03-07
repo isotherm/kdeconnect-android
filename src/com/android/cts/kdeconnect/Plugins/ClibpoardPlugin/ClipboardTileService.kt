@@ -4,13 +4,13 @@
  * SPDX-License-Identifier: GPL-2.0-only OR GPL-3.0-only OR LicenseRef-KDE-Accepted-GPL
  */
 
-package org.kde.kdeconnect.Plugins.ClibpoardPlugin
+package com.android.cts.kdeconnect.Plugins.ClibpoardPlugin
 
 import android.content.Intent
 import android.os.Build
 import android.service.quicksettings.TileService
 import androidx.annotation.RequiresApi
-import org.kde.kdeconnect.BackgroundService
+import com.android.cts.kdeconnect.BackgroundService
 
 @RequiresApi(Build.VERSION_CODES.N)
 class ClipboardTileService : TileService() {

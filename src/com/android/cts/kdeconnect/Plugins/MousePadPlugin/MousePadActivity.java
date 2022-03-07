@@ -4,7 +4,7 @@
  * SPDX-License-Identifier: GPL-2.0-only OR GPL-3.0-only OR LicenseRef-KDE-Accepted-GPL
  */
 
-package org.kde.kdeconnect.Plugins.MousePadPlugin;
+package com.android.cts.kdeconnect.Plugins.MousePadPlugin;
 
 import android.content.Intent;
 import android.content.SharedPreferences;
@@ -23,9 +23,9 @@ import android.view.inputmethod.InputMethodManager;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.content.ContextCompat;
 
-import org.kde.kdeconnect.BackgroundService;
-import org.kde.kdeconnect.UserInterface.ThemeUtil;
-import org.kde.kdeconnect_tp.R;
+import com.android.cts.kdeconnect.BackgroundService;
+import com.android.cts.kdeconnect.UserInterface.ThemeUtil;
+import com.android.cts.kdeconnect_tp.R;
 
 import java.util.Objects;
 
@@ -195,7 +195,7 @@ public class MousePadActivity extends AppCompatActivity implements GestureDetect
             return true;
         } else if (id == R.id.menu_open_compose_send) {
             Intent intent = new Intent(this, ComposeSendActivity.class);
-            intent.putExtra("org.kde.kdeconnect.Plugins.MousePadPlugin.deviceId", deviceId);
+            intent.putExtra("com.android.cts.kdeconnect.Plugins.MousePadPlugin.deviceId", deviceId);
             startActivity(intent);
             return true;
         } else {

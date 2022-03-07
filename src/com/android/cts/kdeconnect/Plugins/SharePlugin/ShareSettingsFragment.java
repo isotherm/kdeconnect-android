@@ -4,7 +4,7 @@
  * SPDX-License-Identifier: GPL-2.0-only OR GPL-3.0-only OR LicenseRef-KDE-Accepted-GPL
  */
 
-package org.kde.kdeconnect.Plugins.SharePlugin;
+package com.android.cts.kdeconnect.Plugins.SharePlugin;
 
 import android.annotation.TargetApi;
 import android.app.Activity;
@@ -17,7 +17,7 @@ import android.os.Bundle;
 import android.os.Environment;
 import android.util.Log;
 
-import org.kde.kdeconnect.UserInterface.PluginSettingsFragment;
+import com.android.cts.kdeconnect.UserInterface.PluginSettingsFragment;
 
 import java.io.File;
 

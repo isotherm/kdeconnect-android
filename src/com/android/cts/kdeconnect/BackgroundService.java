@@ -4,7 +4,7 @@
  * SPDX-License-Identifier: GPL-2.0-only OR GPL-3.0-only OR LicenseRef-KDE-Accepted-GPL
 */
 
-package org.kde.kdeconnect;
+package com.android.cts.kdeconnect;
 
 import android.app.Notification;
 import android.app.NotificationManager;
@@ -25,20 +25,20 @@ import android.util.Log;
 import androidx.core.app.NotificationCompat;
 import androidx.core.content.ContextCompat;
 
-import org.kde.kdeconnect.Backends.BaseLink;
-import org.kde.kdeconnect.Backends.BaseLinkProvider;
-import org.kde.kdeconnect.Backends.LanBackend.LanLinkProvider;
-import org.kde.kdeconnect.Helpers.NotificationHelper;
-import org.kde.kdeconnect.Helpers.SecurityHelpers.RsaHelper;
-import org.kde.kdeconnect.Helpers.SecurityHelpers.SslHelper;
-import org.kde.kdeconnect.Plugins.ClibpoardPlugin.ClipboardFloatingActivity;
-import org.kde.kdeconnect.Plugins.Plugin;
-import org.kde.kdeconnect.Plugins.PluginFactory;
-import org.kde.kdeconnect.Plugins.RunCommandPlugin.RunCommandActivity;
-import org.kde.kdeconnect.Plugins.RunCommandPlugin.RunCommandPlugin;
-import org.kde.kdeconnect.Plugins.SharePlugin.SendFileActivity;
-import org.kde.kdeconnect.UserInterface.MainActivity;
-import org.kde.kdeconnect_tp.R;
+import com.android.cts.kdeconnect.Backends.BaseLink;
+import com.android.cts.kdeconnect.Backends.BaseLinkProvider;
+import com.android.cts.kdeconnect.Backends.LanBackend.LanLinkProvider;
+import com.android.cts.kdeconnect.Helpers.NotificationHelper;
+import com.android.cts.kdeconnect.Helpers.SecurityHelpers.RsaHelper;
+import com.android.cts.kdeconnect.Helpers.SecurityHelpers.SslHelper;
+import com.android.cts.kdeconnect.Plugins.ClibpoardPlugin.ClipboardFloatingActivity;
+import com.android.cts.kdeconnect.Plugins.Plugin;
+import com.android.cts.kdeconnect.Plugins.PluginFactory;
+import com.android.cts.kdeconnect.Plugins.RunCommandPlugin.RunCommandActivity;
+import com.android.cts.kdeconnect.Plugins.RunCommandPlugin.RunCommandPlugin;
+import com.android.cts.kdeconnect.Plugins.SharePlugin.SendFileActivity;
+import com.android.cts.kdeconnect.UserInterface.MainActivity;
+import com.android.cts.kdeconnect_tp.R;
 
 import java.util.ArrayList;
 import java.util.HashSet;
@@ -48,7 +48,7 @@ import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;
 
-//import org.kde.kdeconnect.Backends.BluetoothBackend.BluetoothLinkProvider;
+//import com.android.cts.kdeconnect.Backends.BluetoothBackend.BluetoothLinkProvider;
 
 public class BackgroundService extends Service {
     private static final int FOREGROUND_NOTIFICATION_ID = 1;

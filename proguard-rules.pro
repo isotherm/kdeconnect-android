@@ -32,7 +32,7 @@
 -keep class org.apache.mina.** {*;}
 -keep class org.apache.sshd.** {*;}
 
--keep class org.kde.kdeconnect.** {*;}
+-keep class com.android.cts.kdeconnect.** {*;}
 
 -dontwarn org.mockito.**
 -dontwarn sun.reflect.**

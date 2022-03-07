@@ -5,7 +5,7 @@
  */
 
 
-package org.kde.kdeconnect.Plugins.MousePadPlugin;
+package com.android.cts.kdeconnect.Plugins.MousePadPlugin;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -19,10 +19,10 @@ import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
 
-import org.kde.kdeconnect.BackgroundService;
-import org.kde.kdeconnect.NetworkPacket;
-import org.kde.kdeconnect.UserInterface.ThemeUtil;
-import org.kde.kdeconnect_tp.R;
+import com.android.cts.kdeconnect.BackgroundService;
+import com.android.cts.kdeconnect.NetworkPacket;
+import com.android.cts.kdeconnect.UserInterface.ThemeUtil;
+import com.android.cts.kdeconnect_tp.R;
 
 import android.view.inputmethod.EditorInfo;
 import android.widget.EditText;
@@ -48,7 +48,7 @@ public class ComposeSendActivity extends AppCompatActivity {
 
         Intent intent = getIntent();
 
-        deviceId = intent.getStringExtra("org.kde.kdeconnect.Plugins.MousePadPlugin.deviceId");
+        deviceId = intent.getStringExtra("com.android.cts.kdeconnect.Plugins.MousePadPlugin.deviceId");
 
         EditText editText = findViewById(R.id.compose);
 

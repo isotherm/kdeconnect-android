@@ -1,4 +1,4 @@
-package org.kde.kdeconnect.Plugins.SystemVolumePlugin;
+package com.android.cts.kdeconnect.Plugins.SystemVolumePlugin;
 
 import android.view.View;
 import android.widget.CompoundButton;
@@ -11,9 +11,9 @@ import androidx.annotation.NonNull;
 import androidx.core.util.Consumer;
 import androidx.recyclerview.widget.RecyclerView;
 
-import org.kde.kdeconnect.BackgroundService;
-import org.kde.kdeconnect_tp.R;
-import org.kde.kdeconnect_tp.databinding.ListItemSystemvolumeBinding;
+import com.android.cts.kdeconnect.BackgroundService;
+import com.android.cts.kdeconnect_tp.R;
+import com.android.cts.kdeconnect_tp.databinding.ListItemSystemvolumeBinding;
 
 class SinkItemHolder extends RecyclerView.ViewHolder
         implements

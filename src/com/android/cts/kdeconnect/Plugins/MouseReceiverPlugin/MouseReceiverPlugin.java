@@ -4,7 +4,7 @@
  * SPDX-License-Identifier: GPL-2.0-only OR GPL-3.0-only OR LicenseRef-KDE-Accepted-GPL
  */
 
-package org.kde.kdeconnect.Plugins.MouseReceiverPlugin;
+package com.android.cts.kdeconnect.Plugins.MouseReceiverPlugin;
 
 import android.os.Build;
 import android.provider.Settings;
@@ -13,12 +13,12 @@ import android.util.Log;
 import androidx.annotation.RequiresApi;
 import androidx.fragment.app.DialogFragment;
 
-import org.kde.kdeconnect.NetworkPacket;
-import org.kde.kdeconnect.Plugins.Plugin;
-import org.kde.kdeconnect.Plugins.PluginFactory;
-import org.kde.kdeconnect.UserInterface.MainActivity;
-import org.kde.kdeconnect.UserInterface.StartActivityAlertDialogFragment;
-import org.kde.kdeconnect_tp.R;
+import com.android.cts.kdeconnect.NetworkPacket;
+import com.android.cts.kdeconnect.Plugins.Plugin;
+import com.android.cts.kdeconnect.Plugins.PluginFactory;
+import com.android.cts.kdeconnect.UserInterface.MainActivity;
+import com.android.cts.kdeconnect.UserInterface.StartActivityAlertDialogFragment;
+import com.android.cts.kdeconnect_tp.R;
 
 @PluginFactory.LoadablePlugin
 @RequiresApi(api = Build.VERSION_CODES.N)

@@ -4,7 +4,7 @@
  * SPDX-License-Identifier: GPL-2.0-only OR GPL-3.0-only OR LicenseRef-KDE-Accepted-GPL
 */
 
-package org.kde.kdeconnect.Plugins.FindMyPhonePlugin;
+package com.android.cts.kdeconnect.Plugins.FindMyPhonePlugin;
 
 import android.app.Activity;
 import android.app.NotificationManager;
@@ -25,14 +25,14 @@ import androidx.core.app.NotificationCompat;
 import androidx.core.content.ContextCompat;
 
 import org.apache.commons.lang3.ArrayUtils;
-import org.kde.kdeconnect.Helpers.DeviceHelper;
-import org.kde.kdeconnect.Helpers.NotificationHelper;
-import org.kde.kdeconnect.MyApplication;
-import org.kde.kdeconnect.NetworkPacket;
-import org.kde.kdeconnect.Plugins.Plugin;
-import org.kde.kdeconnect.Plugins.PluginFactory;
-import org.kde.kdeconnect.UserInterface.PluginSettingsFragment;
-import org.kde.kdeconnect_tp.R;
+import com.android.cts.kdeconnect.Helpers.DeviceHelper;
+import com.android.cts.kdeconnect.Helpers.NotificationHelper;
+import com.android.cts.kdeconnect.MyApplication;
+import com.android.cts.kdeconnect.NetworkPacket;
+import com.android.cts.kdeconnect.Plugins.Plugin;
+import com.android.cts.kdeconnect.Plugins.PluginFactory;
+import com.android.cts.kdeconnect.UserInterface.PluginSettingsFragment;
+import com.android.cts.kdeconnect_tp.R;
 
 import java.io.IOException;
 

@@ -76,7 +76,7 @@
             </LinearLayout>
         </com.google.android.material.card.MaterialCardView>
 
-        <org.kde.kdeconnect.UserInterface.About.AutoGridLayout
+        <com.android.cts.kdeconnect.UserInterface.About.AutoGridLayout
             android:id="@+id/info_buttons_layout"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -144,7 +144,7 @@
                     app:drawableTopCompat="@drawable/ic_baseline_web_24"
                     style="@style/AboutButton.TextView" />
             </FrameLayout>
-        </org.kde.kdeconnect.UserInterface.About.AutoGridLayout>
+        </com.android.cts.kdeconnect.UserInterface.About.AutoGridLayout>
 
         <com.google.android.material.card.MaterialCardView
             xmlns:card_view="https://schemas.android.com/apk/res-auto"
@@ -169,7 +169,7 @@
                     android:text="@string/authors"
                     android:textAppearance="?attr/textAppearanceHeadline6" />
 
-                <org.kde.kdeconnect.UserInterface.About.AdapterLinearLayout
+                <com.android.cts.kdeconnect.UserInterface.About.AdapterLinearLayout
                     android:id="@+id/authors_list"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"

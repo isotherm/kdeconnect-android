@@ -1,13 +1,13 @@
-package org.kde.kdeconnect.UserInterface;
+package com.android.cts.kdeconnect.UserInterface;
 
 import android.content.Context;
 import android.util.TypedValue;
 import android.view.View;
 
-import org.kde.kdeconnect.Device;
-import org.kde.kdeconnect.Plugins.Plugin;
-import org.kde.kdeconnect.Plugins.PluginFactory;
-import org.kde.kdeconnect_tp.R;
+import com.android.cts.kdeconnect.Device;
+import com.android.cts.kdeconnect.Plugins.Plugin;
+import com.android.cts.kdeconnect.Plugins.PluginFactory;
+import com.android.cts.kdeconnect_tp.R;
 
 import androidx.annotation.NonNull;
 import androidx.preference.PreferenceViewHolder;

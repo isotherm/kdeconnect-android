@@ -3,7 +3,7 @@
  *
  * SPDX-License-Identifier: Apache-2.0
  */
-package org.kde.kdeconnect.UserInterface;
+package com.android.cts.kdeconnect.UserInterface;
 
 import android.content.res.Configuration;
 import android.os.Bundle;
@@ -12,7 +12,7 @@ import android.view.MenuInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import org.kde.kdeconnect.BackgroundService;
+import com.android.cts.kdeconnect.BackgroundService;
 
 import androidx.annotation.LayoutRes;
 import androidx.annotation.NonNull;

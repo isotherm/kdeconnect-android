@@ -4,14 +4,14 @@
  * SPDX-License-Identifier: GPL-2.0-only OR GPL-3.0-only OR LicenseRef-KDE-Accepted-GPL
 */
 
-package org.kde.kdeconnect.Backends.BluetoothBackend;
+package com.android.cts.kdeconnect.Backends.BluetoothBackend;
 
 import android.util.Log;
 
-import org.kde.kdeconnect.Backends.BasePairingHandler;
-import org.kde.kdeconnect.Device;
-import org.kde.kdeconnect.NetworkPacket;
-import org.kde.kdeconnect_tp.R;
+import com.android.cts.kdeconnect.Backends.BasePairingHandler;
+import com.android.cts.kdeconnect.Device;
+import com.android.cts.kdeconnect.NetworkPacket;
+import com.android.cts.kdeconnect_tp.R;
 
 import java.util.Timer;
 import java.util.TimerTask;

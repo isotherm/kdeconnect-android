@@ -1,4 +1,4 @@
-package org.kde.kdeconnect.Backends.BluetoothBackend;
+package com.android.cts.kdeconnect.Backends.BluetoothBackend;
 
 import android.bluetooth.BluetoothSocket;
 

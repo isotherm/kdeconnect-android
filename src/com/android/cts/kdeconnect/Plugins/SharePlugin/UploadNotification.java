@@ -4,7 +4,7 @@
  * SPDX-License-Identifier: GPL-2.0-only OR GPL-3.0-only OR LicenseRef-KDE-Accepted-GPL
  */
 
-package org.kde.kdeconnect.Plugins.SharePlugin;
+package com.android.cts.kdeconnect.Plugins.SharePlugin;
 
 import android.app.Notification;
 import android.app.NotificationManager;
@@ -16,9 +16,9 @@ import androidx.core.app.NotificationCompat;
 import androidx.core.content.ContextCompat;
 import androidx.preference.PreferenceManager;
 
-import org.kde.kdeconnect.Device;
-import org.kde.kdeconnect.Helpers.NotificationHelper;
-import org.kde.kdeconnect_tp.R;
+import com.android.cts.kdeconnect.Device;
+import com.android.cts.kdeconnect.Helpers.NotificationHelper;
+import com.android.cts.kdeconnect_tp.R;
 
 class UploadNotification {
     private final NotificationManager notificationManager;

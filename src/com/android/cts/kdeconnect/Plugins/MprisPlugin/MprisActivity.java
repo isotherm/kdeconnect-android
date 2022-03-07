@@ -4,7 +4,7 @@
  * SPDX-License-Identifier: GPL-2.0-only OR GPL-3.0-only OR LicenseRef-KDE-Accepted-GPL
  */
 
-package org.kde.kdeconnect.Plugins.MprisPlugin;
+package com.android.cts.kdeconnect.Plugins.MprisPlugin;
 
 import android.os.Bundle;
 import android.view.KeyEvent;
@@ -17,10 +17,10 @@ import androidx.fragment.app.FragmentActivity;
 
 import com.google.android.material.tabs.TabLayoutMediator;
 
-import org.kde.kdeconnect.Plugins.SystemVolumePlugin.SystemVolumeFragment;
-import org.kde.kdeconnect.UserInterface.ThemeUtil;
-import org.kde.kdeconnect_tp.R;
-import org.kde.kdeconnect_tp.databinding.ActivityMprisBinding;
+import com.android.cts.kdeconnect.Plugins.SystemVolumePlugin.SystemVolumeFragment;
+import com.android.cts.kdeconnect.UserInterface.ThemeUtil;
+import com.android.cts.kdeconnect_tp.R;
+import com.android.cts.kdeconnect_tp.databinding.ActivityMprisBinding;
 
 import java.util.Objects;
 

@@ -1,4 +1,4 @@
-package org.kde.kdeconnect.Helpers;
+package com.android.cts.kdeconnect.Helpers;
 
 import org.apache.commons.lang3.StringUtils;
 

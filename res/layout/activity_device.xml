@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="org.kde.kdeconnect.UserInterface.DeviceFragment">
+    tools:context="com.android.cts.kdeconnect.UserInterface.DeviceFragment">
 
     <!-- Layout shown when device is reachable but not yet paired -->
     <include

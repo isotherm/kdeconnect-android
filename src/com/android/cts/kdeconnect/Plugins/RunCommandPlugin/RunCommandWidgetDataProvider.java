@@ -1,4 +1,4 @@
-package org.kde.kdeconnect.Plugins.RunCommandPlugin;
+package com.android.cts.kdeconnect.Plugins.RunCommandPlugin;
 
 import android.content.Context;
 import android.content.Intent;
@@ -6,7 +6,7 @@ import android.view.View;
 import android.widget.RemoteViews;
 import android.widget.RemoteViewsService;
 
-import org.kde.kdeconnect_tp.R;
+import com.android.cts.kdeconnect_tp.R;
 
 import java.util.ArrayList;
 

@@ -1,4 +1,4 @@
-package org.kde.kdeconnect.UserInterface;
+package com.android.cts.kdeconnect.UserInterface;
 
 import android.Manifest;
 import android.content.pm.PackageManager;
@@ -15,9 +15,9 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import com.android.internal.util.ArrayUtils;
 
-import org.kde.kdeconnect.Helpers.TrustedNetworkHelper;
-import org.kde.kdeconnect_tp.R;
-import org.kde.kdeconnect_tp.databinding.TrustedNetworkListBinding;
+import com.android.cts.kdeconnect.Helpers.TrustedNetworkHelper;
+import com.android.cts.kdeconnect_tp.R;
+import com.android.cts.kdeconnect_tp.databinding.TrustedNetworkListBinding;
 
 import java.util.ArrayList;
 import java.util.Collections;

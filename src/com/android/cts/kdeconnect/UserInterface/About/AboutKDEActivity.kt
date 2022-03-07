@@ -4,16 +4,16 @@
  * SPDX-License-Identifier: GPL-2.0-only OR GPL-3.0-only OR LicenseRef-KDE-Accepted-GPL
  */
 
-package org.kde.kdeconnect.UserInterface.About
+package com.android.cts.kdeconnect.UserInterface.About
 
 import android.os.Bundle
 import android.text.Html
 import android.text.Spanned
 import android.text.method.LinkMovementMethod
 import androidx.appcompat.app.AppCompatActivity
-import org.kde.kdeconnect.UserInterface.ThemeUtil
-import org.kde.kdeconnect_tp.R
-import org.kde.kdeconnect_tp.databinding.ActivityAboutKdeBinding
+import com.android.cts.kdeconnect.UserInterface.ThemeUtil
+import com.android.cts.kdeconnect_tp.R
+import com.android.cts.kdeconnect_tp.databinding.ActivityAboutKdeBinding
 
 class AboutKDEActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

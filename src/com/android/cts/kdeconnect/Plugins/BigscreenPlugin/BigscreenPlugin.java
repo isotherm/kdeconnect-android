@@ -5,7 +5,7 @@
  * SPDX-License-Identifier: GPL-2.0-only OR GPL-3.0-only OR LicenseRef-KDE-Accepted-GPL
 */
 
-package org.kde.kdeconnect.Plugins.BigscreenPlugin;
+package com.android.cts.kdeconnect.Plugins.BigscreenPlugin;
 
 
 import android.Manifest;
@@ -14,15 +14,15 @@ import android.content.Intent;
 import android.graphics.drawable.Drawable;
 import android.view.KeyEvent;
 
-import org.kde.kdeconnect.Device;
-import org.kde.kdeconnect.NetworkPacket;
-import org.kde.kdeconnect.Plugins.Plugin;
-import org.kde.kdeconnect.Plugins.PluginFactory;
-import org.kde.kdeconnect_tp.R;
+import com.android.cts.kdeconnect.Device;
+import com.android.cts.kdeconnect.NetworkPacket;
+import com.android.cts.kdeconnect.Plugins.Plugin;
+import com.android.cts.kdeconnect.Plugins.PluginFactory;
+import com.android.cts.kdeconnect_tp.R;
 
 import androidx.core.content.ContextCompat;
 
-import static org.kde.kdeconnect.Plugins.MousePadPlugin.KeyListenerView.SpecialKeysMap;
+import static com.android.cts.kdeconnect.Plugins.MousePadPlugin.KeyListenerView.SpecialKeysMap;
 
 @PluginFactory.LoadablePlugin
 public class BigscreenPlugin extends Plugin {

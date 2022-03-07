@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="org.kde.kdeconnect_tp"
+    package="com.android.cts.kdeconnect_tp"
     android:versionCode="11910"
     android:versionName="1.19.1">
 
@@ -55,7 +55,7 @@
         android:allowBackup="false"
         android:networkSecurityConfig="@xml/network_security_config"
         android:theme="@style/KdeConnectTheme.NoActionBar"
-        android:name="org.kde.kdeconnect.MyApplication">
+        android:name="com.android.cts.kdeconnect.MyApplication">
 
         <receiver
             android:name="com.android.mms.transaction.PushReceiver"
@@ -74,12 +74,12 @@
             android:exported="true" />
 
         <service
-            android:name="org.kde.kdeconnect.BackgroundService"
+            android:name="com.android.cts.kdeconnect.BackgroundService"
             android:foregroundServiceType="connectedDevice"
             android:icon="@drawable/icon"
             android:enabled="true" />
         <service
-            android:name="org.kde.kdeconnect.Plugins.RemoteKeyboardPlugin.RemoteKeyboardService"
+            android:name="com.android.cts.kdeconnect.Plugins.RemoteKeyboardPlugin.RemoteKeyboardService"
             android:label="@string/remote_keyboard_service"
             android:permission="android.permission.BIND_INPUT_METHOD">
             <intent-filter>
@@ -92,7 +92,7 @@
         </service>
 
         <activity
-            android:name="org.kde.kdeconnect.UserInterface.MainActivity"
+            android:name="com.android.cts.kdeconnect.UserInterface.MainActivity"
             android:label="KDE Connect"
             android:theme="@style/KdeConnectTheme.NoActionBar">
             <intent-filter>
@@ -102,31 +102,31 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="org.kde.kdeconnect.UserInterface.PluginSettingsActivity"
+            android:name="com.android.cts.kdeconnect.UserInterface.PluginSettingsActivity"
             android:label="@string/device_menu_plugins"
-            android:parentActivityName="org.kde.kdeconnect.UserInterface.MainActivity">
+            android:parentActivityName="com.android.cts.kdeconnect.UserInterface.MainActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="org.kde.kdeconnect.UserInterface.MainActivity" />
+                android:value="com.android.cts.kdeconnect.UserInterface.MainActivity" />
         </activity>
         <activity
-            android:name="org.kde.kdeconnect.UserInterface.CustomDevicesActivity"
+            android:name="com.android.cts.kdeconnect.UserInterface.CustomDevicesActivity"
             android:label="@string/custom_devices_settings"
-            android:parentActivityName="org.kde.kdeconnect.UserInterface.MainActivity">
+            android:parentActivityName="com.android.cts.kdeconnect.UserInterface.MainActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="org.kde.kdeconnect.UserInterface.MainActivity" />
+                android:value="com.android.cts.kdeconnect.UserInterface.MainActivity" />
         </activity>
         <activity
-            android:name="org.kde.kdeconnect.Plugins.SharePlugin.SendFileActivity"
+            android:name="com.android.cts.kdeconnect.Plugins.SharePlugin.SendFileActivity"
             android:label="KDE Connect"
-            android:parentActivityName="org.kde.kdeconnect.UserInterface.MainActivity">
+            android:parentActivityName="com.android.cts.kdeconnect.UserInterface.MainActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="org.kde.kdeconnect.UserInterface.MainActivity" />
+                android:value="com.android.cts.kdeconnect.UserInterface.MainActivity" />
         </activity>
 
-        <receiver android:name="org.kde.kdeconnect.KdeConnectBroadcastReceiver">
+        <receiver android:name="com.android.cts.kdeconnect.KdeConnectBroadcastReceiver">
             <intent-filter>
                 <action android:name="android.intent.action.PACKAGE_REPLACED" />
 
@@ -150,52 +150,52 @@
         </receiver>
 
         <activity
-            android:name="org.kde.kdeconnect.Plugins.FindMyPhonePlugin.FindMyPhoneActivity"
+            android:name="com.android.cts.kdeconnect.Plugins.FindMyPhonePlugin.FindMyPhoneActivity"
             android:configChanges="orientation|screenSize"
             android:excludeFromRecents="true"
             android:label="@string/findmyphone_title"
             android:launchMode="singleInstance" />
 
-        <receiver android:name="org.kde.kdeconnect.Plugins.FindMyPhonePlugin.FindMyPhoneReceiver">
+        <receiver android:name="com.android.cts.kdeconnect.Plugins.FindMyPhonePlugin.FindMyPhoneReceiver">
             <intent-filter>
-                <action android:name="org.kde.kdeconnect.Plugins.FindMyPhonePlugin.foundIt" />
+                <action android:name="com.android.cts.kdeconnect.Plugins.FindMyPhonePlugin.foundIt" />
             </intent-filter>
         </receiver>
 
         <!-- Plugin-related activities and services -->
 
         <activity
-            android:name="org.kde.kdeconnect.Plugins.ClibpoardPlugin.ClipboardFloatingActivity"
+            android:name="com.android.cts.kdeconnect.Plugins.ClibpoardPlugin.ClipboardFloatingActivity"
             android:theme="@style/Theme.Transparent"
             android:excludeFromRecents="true"/>
 
         <activity
-            android:name="org.kde.kdeconnect.Plugins.MprisPlugin.MprisActivity"
+            android:name="com.android.cts.kdeconnect.Plugins.MprisPlugin.MprisActivity"
             android:label="@string/open_mpris_controls"
             android:launchMode="singleTop"
             android:theme="@style/KdeConnectTheme.NoActionBar"
-            android:parentActivityName="org.kde.kdeconnect.UserInterface.MainActivity">
+            android:parentActivityName="com.android.cts.kdeconnect.UserInterface.MainActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="org.kde.kdeconnect.UserInterface.MainActivity" />
+                android:value="com.android.cts.kdeconnect.UserInterface.MainActivity" />
         </activity>
 
-        <receiver android:name="org.kde.kdeconnect.Plugins.MprisPlugin.MprisMediaNotificationReceiver">
+        <receiver android:name="com.android.cts.kdeconnect.Plugins.MprisPlugin.MprisMediaNotificationReceiver">
             <intent-filter>
                 <action android:name="android.intent.action.MEDIA_BUTTON" />
             </intent-filter>
         </receiver>
 
         <activity
-            android:name="org.kde.kdeconnect.Plugins.RunCommandPlugin.RunCommandActivity"
+            android:name="com.android.cts.kdeconnect.Plugins.RunCommandPlugin.RunCommandActivity"
             android:label="@string/pref_plugin_runcommand"
-            android:parentActivityName="org.kde.kdeconnect.UserInterface.MainActivity">
+            android:parentActivityName="com.android.cts.kdeconnect.UserInterface.MainActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="org.kde.kdeconnect.UserInterface.MainActivity" />
+                android:value="com.android.cts.kdeconnect.UserInterface.MainActivity" />
         </activity>
         <activity
-            android:name="org.kde.kdeconnect.Plugins.RunCommandPlugin.RunCommandWidgetDeviceSelector"
+            android:name="com.android.cts.kdeconnect.Plugins.RunCommandPlugin.RunCommandWidgetDeviceSelector"
             android:excludeFromRecents="true"
             android:label="@string/pref_plugin_runcommand"
             android:launchMode="singleTask"
@@ -204,12 +204,12 @@
             android:theme="@style/Theme.AppCompat.Light.Dialog" />
 
         <service
-            android:name="org.kde.kdeconnect.Plugins.RunCommandPlugin.RunCommandWidgetDataProviderService"
+            android:name="com.android.cts.kdeconnect.Plugins.RunCommandPlugin.RunCommandWidgetDataProviderService"
             android:exported="false"
             android:permission="android.permission.BIND_REMOTEVIEWS" />
 
         <receiver
-            android:name="org.kde.kdeconnect.Plugins.RunCommandPlugin.RunCommandWidget"
+            android:name="com.android.cts.kdeconnect.Plugins.RunCommandPlugin.RunCommandWidget"
             android:label="@string/pref_plugin_runcommand">
             <intent-filter>
                 <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
@@ -223,7 +223,7 @@
                 android:resource="@xml/remotecommandplugin_widget" />
         </receiver>
 
-        <activity android:name="org.kde.kdeconnect.Plugins.RunCommandPlugin.RunCommandUrlActivity">
+        <activity android:name="com.android.cts.kdeconnect.Plugins.RunCommandPlugin.RunCommandUrlActivity">
             <intent-filter>
                 <action android:name="android.intent.action.VIEW" />
                 <action android:name="android.nfc.action.NDEF_DISCOVERED" />
@@ -237,39 +237,39 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="org.kde.kdeconnect.Plugins.BigscreenPlugin.BigscreenActivity"
+            android:name="com.android.cts.kdeconnect.Plugins.BigscreenPlugin.BigscreenActivity"
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:label="@string/pref_plugin_bigscreen"
-            android:parentActivityName="org.kde.kdeconnect.UserInterface.MainActivity"
+            android:parentActivityName="com.android.cts.kdeconnect.UserInterface.MainActivity"
             android:windowSoftInputMode="stateHidden|adjustResize">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="org.kde.kdeconnect.UserInterface.MainActivity" />
+                android:value="com.android.cts.kdeconnect.UserInterface.MainActivity" />
         </activity>
         <activity
-            android:name="org.kde.kdeconnect.Plugins.MousePadPlugin.MousePadActivity"
+            android:name="com.android.cts.kdeconnect.Plugins.MousePadPlugin.MousePadActivity"
             android:label="@string/pref_plugin_mousepad"
             android:launchMode="singleTop"
-            android:parentActivityName="org.kde.kdeconnect.UserInterface.MainActivity">
+            android:parentActivityName="com.android.cts.kdeconnect.UserInterface.MainActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="org.kde.kdeconnect.UserInterface.MainActivity" />
+                android:value="com.android.cts.kdeconnect.UserInterface.MainActivity" />
         </activity>
         <activity
-            android:name="org.kde.kdeconnect.Plugins.MousePadPlugin.ComposeSendActivity"
+            android:name="com.android.cts.kdeconnect.Plugins.MousePadPlugin.ComposeSendActivity"
             android:label="Compose send"
-            android:parentActivityName="org.kde.kdeconnect.Plugins.MousePadPlugin.MousePadActivity">
+            android:parentActivityName="com.android.cts.kdeconnect.Plugins.MousePadPlugin.MousePadActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="org.kde.kdeconnect.Plugins.MousePadPlugin.MousePadActivity" />
+                android:value="com.android.cts.kdeconnect.Plugins.MousePadPlugin.MousePadActivity" />
         </activity>
         <activity
-            android:name="org.kde.kdeconnect.Plugins.MousePadPlugin.SendKeystrokesToHostActivity"
+            android:name="com.android.cts.kdeconnect.Plugins.MousePadPlugin.SendKeystrokesToHostActivity"
             android:label="@string/pref_plugin_mousepad_send_keystrokes"
-            android:parentActivityName="org.kde.kdeconnect.UserInterface.MainActivity">
+            android:parentActivityName="com.android.cts.kdeconnect.UserInterface.MainActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="org.kde.kdeconnect.UserInterface.MainActivity" />
+                android:value="com.android.cts.kdeconnect.UserInterface.MainActivity" />
             <!-- Accept data with "text/x-keystrokes" to send the text to the connected host and emulate keystrokes -->
             <intent-filter>
                 <action android:name="android.intent.action.SEND"/>
@@ -278,17 +278,17 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="org.kde.kdeconnect.Plugins.PresenterPlugin.PresenterActivity"
+            android:name="com.android.cts.kdeconnect.Plugins.PresenterPlugin.PresenterActivity"
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:label="@string/pref_plugin_presenter"
-            android:parentActivityName="org.kde.kdeconnect.UserInterface.MainActivity"
+            android:parentActivityName="com.android.cts.kdeconnect.UserInterface.MainActivity"
             android:windowSoftInputMode="stateHidden|adjustResize">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="org.kde.kdeconnect.UserInterface.MainActivity" />
+                android:value="com.android.cts.kdeconnect.UserInterface.MainActivity" />
         </activity>
         <activity
-            android:name="org.kde.kdeconnect.Plugins.SharePlugin.ShareActivity"
+            android:name="com.android.cts.kdeconnect.Plugins.SharePlugin.ShareActivity"
             android:label="@string/manifest_label_share">
             <intent-filter>
                 <action android:name="android.intent.action.SEND" />
@@ -307,18 +307,18 @@
 
             <meta-data
                 android:name="android.service.chooser.chooser_target_service"
-                android:value="org.kde.kdeconnect.Plugins.SharePlugin.ShareChooserTargetService" />
+                android:value="com.android.cts.kdeconnect.Plugins.SharePlugin.ShareChooserTargetService" />
         </activity>
 
-        <receiver android:name="org.kde.kdeconnect.Plugins.SharePlugin.ShareBroadcastReceiver">
+        <receiver android:name="com.android.cts.kdeconnect.Plugins.SharePlugin.ShareBroadcastReceiver">
             <intent-filter>
-                <action android:name="org.kde.kdeconnect.Plugins.SharePlugin.CancelShare" />
+                <action android:name="com.android.cts.kdeconnect.Plugins.SharePlugin.CancelShare" />
             </intent-filter>
         </receiver>
 
         <provider
             android:name="androidx.core.content.FileProvider"
-            android:authorities="org.kde.kdeconnect_tp.fileprovider"
+            android:authorities="com.android.cts.kdeconnect_tp.fileprovider"
             android:exported="false"
             android:grantUriPermissions="true">
             <meta-data
@@ -327,21 +327,21 @@
         </provider>
 
         <service
-            android:name="org.kde.kdeconnect.Plugins.NotificationsPlugin.NotificationReceiver"
+            android:name="com.android.cts.kdeconnect.Plugins.NotificationsPlugin.NotificationReceiver"
             android:permission="android.permission.BIND_NOTIFICATION_LISTENER_SERVICE">
             <intent-filter>
                 <action android:name="android.service.notification.NotificationListenerService" />
             </intent-filter>
         </service>
         <service
-            android:name="org.kde.kdeconnect.Plugins.SharePlugin.ShareChooserTargetService"
+            android:name="com.android.cts.kdeconnect.Plugins.SharePlugin.ShareChooserTargetService"
             android:permission="android.permission.BIND_CHOOSER_TARGET_SERVICE">
             <intent-filter>
                 <action android:name="android.service.chooser.ChooserTargetService" />
             </intent-filter>
         </service>
         <service
-            android:name="org.kde.kdeconnect.Plugins.MouseReceiverPlugin.MouseReceiverService"
+            android:name="com.android.cts.kdeconnect.Plugins.MouseReceiverPlugin.MouseReceiverService"
             android:permission="android.permission.BIND_ACCESSIBILITY_SERVICE">
             <intent-filter>
                 <action android:name="android.accessibilityservice.AccessibilityService" />
@@ -352,54 +352,54 @@
         </service>
 
         <activity
-            android:name="org.kde.kdeconnect.Plugins.NotificationsPlugin.NotificationFilterActivity"
+            android:name="com.android.cts.kdeconnect.Plugins.NotificationsPlugin.NotificationFilterActivity"
             android:label="@string/title_activity_notification_filter"
-            android:parentActivityName="org.kde.kdeconnect.UserInterface.PluginSettingsActivity">
+            android:parentActivityName="com.android.cts.kdeconnect.UserInterface.PluginSettingsActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="org.kde.kdeconnect.UserInterface.PluginSettingsActivity" />
+                android:value="com.android.cts.kdeconnect.UserInterface.PluginSettingsActivity" />
         </activity>
 
-        <activity android:name="org.kde.kdeconnect.Plugins.PhotoPlugin.PhotoActivity" />
+        <activity android:name="com.android.cts.kdeconnect.Plugins.PhotoPlugin.PhotoActivity" />
 
         <activity
-            android:name="org.kde.kdeconnect.UserInterface.TrustedNetworksActivity"
+            android:name="com.android.cts.kdeconnect.UserInterface.TrustedNetworksActivity"
             android:label="@string/trusted_networks"
-            android:parentActivityName="org.kde.kdeconnect.UserInterface.MainActivity">
+            android:parentActivityName="com.android.cts.kdeconnect.UserInterface.MainActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="org.kde.kdeconnect.UserInterface.MainActivity" />
+                android:value="com.android.cts.kdeconnect.UserInterface.MainActivity" />
         </activity>
 
         <activity
-            android:name="org.kde.kdeconnect.UserInterface.About.EasterEggActivity"
+            android:name="com.android.cts.kdeconnect.UserInterface.About.EasterEggActivity"
             android:label="@string/easter_egg"
-            android:parentActivityName="org.kde.kdeconnect.UserInterface.MainActivity">
+            android:parentActivityName="com.android.cts.kdeconnect.UserInterface.MainActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="org.kde.kdeconnect.UserInterface.MainActivity" />
+                android:value="com.android.cts.kdeconnect.UserInterface.MainActivity" />
         </activity>
 
         <activity
-            android:name="org.kde.kdeconnect.UserInterface.About.AboutKDEActivity"
+            android:name="com.android.cts.kdeconnect.UserInterface.About.AboutKDEActivity"
             android:label="@string/about_kde"
-            android:parentActivityName="org.kde.kdeconnect.UserInterface.MainActivity">
+            android:parentActivityName="com.android.cts.kdeconnect.UserInterface.MainActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="org.kde.kdeconnect.UserInterface.MainActivity" />
+                android:value="com.android.cts.kdeconnect.UserInterface.MainActivity" />
         </activity>
 
         <activity
-            android:name="org.kde.kdeconnect.UserInterface.About.LicensesActivity"
+            android:name="com.android.cts.kdeconnect.UserInterface.About.LicensesActivity"
             android:label="@string/licenses"
-            android:parentActivityName="org.kde.kdeconnect.UserInterface.MainActivity">
+            android:parentActivityName="com.android.cts.kdeconnect.UserInterface.MainActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="org.kde.kdeconnect.UserInterface.MainActivity" />
+                android:value="com.android.cts.kdeconnect.UserInterface.MainActivity" />
         </activity>
 
         <service
-            android:name="org.kde.kdeconnect.Plugins.ClibpoardPlugin.ClipboardTileService"
+            android:name="com.android.cts.kdeconnect.Plugins.ClibpoardPlugin.ClipboardTileService"
             android:icon="@drawable/ic_baseline_content_paste_24"
             android:label="@string/send_clipboard"
             android:permission="android.permission.BIND_QUICK_SETTINGS_TILE">
@@ -408,7 +408,7 @@
             </intent-filter>
         </service>
 
-        <service android:name="org.kde.kdeconnect.Plugins.RunCommandPlugin.RunCommandControlsProviderService" android:label="@string/kde_connect"
+        <service android:name="com.android.cts.kdeconnect.Plugins.RunCommandPlugin.RunCommandControlsProviderService" android:label="@string/kde_connect"
             android:permission="android.permission.BIND_CONTROLS">
             <intent-filter>
                 <action android:name="android.service.controls.ControlsProviderService" />

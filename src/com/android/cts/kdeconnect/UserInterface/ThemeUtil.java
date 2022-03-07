@@ -1,4 +1,4 @@
-package org.kde.kdeconnect.UserInterface;
+package com.android.cts.kdeconnect.UserInterface;
 
 import android.app.Activity;
 import android.content.Context;

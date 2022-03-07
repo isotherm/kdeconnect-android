@@ -4,7 +4,7 @@
  * SPDX-License-Identifier: GPL-2.0-only OR GPL-3.0-only OR LicenseRef-KDE-Accepted-GPL
 */
 
-package org.kde.kdeconnect.Helpers.SecurityHelpers;
+package com.android.cts.kdeconnect.Helpers.SecurityHelpers;
 
 import android.content.Context;
 import android.content.SharedPreferences;
@@ -16,8 +16,8 @@ import android.util.Base64;
 import android.util.Log;
 
 import org.apache.commons.lang3.ArrayUtils;
-import org.kde.kdeconnect.Helpers.DeviceHelper;
-import org.kde.kdeconnect.Helpers.RandomHelper;
+import com.android.cts.kdeconnect.Helpers.DeviceHelper;
+import com.android.cts.kdeconnect.Helpers.RandomHelper;
 import org.spongycastle.asn1.x500.RDN;
 import org.spongycastle.asn1.x500.X500Name;
 import org.spongycastle.asn1.x500.X500NameBuilder;

@@ -4,15 +4,15 @@
  * SPDX-License-Identifier: GPL-2.0-only OR GPL-3.0-only OR LicenseRef-KDE-Accepted-GPL
 */
 
-package org.kde.kdeconnect.Plugins.MprisPlugin;
+package com.android.cts.kdeconnect.Plugins.MprisPlugin;
 
 import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
 import android.support.v4.media.session.MediaSessionCompat;
 
-import org.kde.kdeconnect.BackgroundService;
-import org.kde.kdeconnect.Device;
+import com.android.cts.kdeconnect.BackgroundService;
+import com.android.cts.kdeconnect.Device;
 
 /**
  * Called when the mpris media notification's buttons are pressed

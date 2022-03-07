@@ -4,7 +4,7 @@
  * SPDX-License-Identifier: GPL-2.0-only OR GPL-3.0-only OR LicenseRef-KDE-Accepted-GPL
 */
 
-package org.kde.kdeconnect.Backends.LanBackend;
+package com.android.cts.kdeconnect.Backends.LanBackend;
 
 import android.content.Context;
 import android.util.Log;
@@ -12,11 +12,11 @@ import android.util.Log;
 import androidx.annotation.WorkerThread;
 
 import org.json.JSONObject;
-import org.kde.kdeconnect.Backends.BaseLink;
-import org.kde.kdeconnect.Backends.BasePairingHandler;
-import org.kde.kdeconnect.Device;
-import org.kde.kdeconnect.Helpers.SecurityHelpers.SslHelper;
-import org.kde.kdeconnect.NetworkPacket;
+import com.android.cts.kdeconnect.Backends.BaseLink;
+import com.android.cts.kdeconnect.Backends.BasePairingHandler;
+import com.android.cts.kdeconnect.Device;
+import com.android.cts.kdeconnect.Helpers.SecurityHelpers.SslHelper;
+import com.android.cts.kdeconnect.NetworkPacket;
 
 import java.io.BufferedReader;
 import java.io.IOException;

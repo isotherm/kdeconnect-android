@@ -4,7 +4,7 @@
  * SPDX-License-Identifier: GPL-2.0-only OR GPL-3.0-only OR LicenseRef-KDE-Accepted-GPL
 */
 
-package org.kde.kdeconnect;
+package com.android.cts.kdeconnect;
 
 import android.app.NotificationManager;
 import android.content.Context;
@@ -18,12 +18,12 @@ import androidx.core.content.ContextCompat;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
-import org.kde.kdeconnect.Backends.BasePairingHandler;
-import org.kde.kdeconnect.Backends.LanBackend.LanLink;
-import org.kde.kdeconnect.Backends.LanBackend.LanLinkProvider;
-import org.kde.kdeconnect.Backends.LanBackend.LanPairingHandler;
-import org.kde.kdeconnect.Helpers.DeviceHelper;
-import org.kde.kdeconnect.Helpers.SecurityHelpers.RsaHelper;
+import com.android.cts.kdeconnect.Backends.BasePairingHandler;
+import com.android.cts.kdeconnect.Backends.LanBackend.LanLink;
+import com.android.cts.kdeconnect.Backends.LanBackend.LanLinkProvider;
+import com.android.cts.kdeconnect.Backends.LanBackend.LanPairingHandler;
+import com.android.cts.kdeconnect.Helpers.DeviceHelper;
+import com.android.cts.kdeconnect.Helpers.SecurityHelpers.RsaHelper;
 import org.mockito.ArgumentCaptor;
 import org.mockito.Mockito;
 import org.powermock.api.mockito.PowerMockito;

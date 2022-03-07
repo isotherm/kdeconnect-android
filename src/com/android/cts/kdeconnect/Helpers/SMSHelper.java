@@ -5,7 +5,7 @@
  * SPDX-License-Identifier: GPL-2.0-only OR GPL-3.0-only OR LicenseRef-KDE-Accepted-GPL
 */
 
-package org.kde.kdeconnect.Helpers;
+package com.android.cts.kdeconnect.Helpers;
 
 import android.annotation.SuppressLint;
 import android.content.ContentUris;
@@ -39,8 +39,8 @@ import org.apache.commons.lang3.math.NumberUtils;
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
-import org.kde.kdeconnect.Plugins.SMSPlugin.MimeType;
-import org.kde.kdeconnect.Plugins.SMSPlugin.SmsMmsUtils;
+import com.android.cts.kdeconnect.Plugins.SMSPlugin.MimeType;
+import com.android.cts.kdeconnect.Plugins.SMSPlugin.SmsMmsUtils;
 
 import java.io.IOException;
 import java.io.InputStream;

@@ -1,4 +1,4 @@
-package org.kde.kdeconnect.Plugins.MprisPlugin;
+package com.android.cts.kdeconnect.Plugins.MprisPlugin;
 
 import android.content.ActivityNotFoundException;
 import android.content.Context;
@@ -30,14 +30,14 @@ import androidx.core.graphics.drawable.DrawableCompat;
 import androidx.fragment.app.Fragment;
 
 import org.apache.commons.lang3.ArrayUtils;
-import org.kde.kdeconnect.Backends.BaseLink;
-import org.kde.kdeconnect.Backends.BaseLinkProvider;
-import org.kde.kdeconnect.BackgroundService;
-import org.kde.kdeconnect.Helpers.VideoUrlsHelper;
-import org.kde.kdeconnect.NetworkPacket;
-import org.kde.kdeconnect_tp.R;
-import org.kde.kdeconnect_tp.databinding.MprisControlBinding;
-import org.kde.kdeconnect_tp.databinding.MprisNowPlayingBinding;
+import com.android.cts.kdeconnect.Backends.BaseLink;
+import com.android.cts.kdeconnect.Backends.BaseLinkProvider;
+import com.android.cts.kdeconnect.BackgroundService;
+import com.android.cts.kdeconnect.Helpers.VideoUrlsHelper;
+import com.android.cts.kdeconnect.NetworkPacket;
+import com.android.cts.kdeconnect_tp.R;
+import com.android.cts.kdeconnect_tp.databinding.MprisControlBinding;
+import com.android.cts.kdeconnect_tp.databinding.MprisNowPlayingBinding;
 
 import java.net.MalformedURLException;
 import java.util.List;

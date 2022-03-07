@@ -4,7 +4,7 @@
  * SPDX-License-Identifier: GPL-2.0-only OR GPL-3.0-only OR LicenseRef-KDE-Accepted-GPL
  */
 
-package org.kde.kdeconnect.UserInterface;
+package com.android.cts.kdeconnect.UserInterface;
 
 import android.content.Context;
 import android.content.Intent;
@@ -23,20 +23,20 @@ import androidx.appcompat.app.AlertDialog;
 import androidx.fragment.app.DialogFragment;
 import androidx.fragment.app.Fragment;
 
-import org.kde.kdeconnect.BackgroundService;
-import org.kde.kdeconnect.Device;
-import org.kde.kdeconnect.Helpers.SecurityHelpers.SslHelper;
-import org.kde.kdeconnect.Plugins.BatteryPlugin.BatteryPlugin;
-import org.kde.kdeconnect.Plugins.BatteryPlugin.DeviceBatteryInfo;
-import org.kde.kdeconnect.Plugins.Plugin;
-import org.kde.kdeconnect.UserInterface.List.FailedPluginListItem;
-import org.kde.kdeconnect.UserInterface.List.ListAdapter;
-import org.kde.kdeconnect.UserInterface.List.PluginItem;
-import org.kde.kdeconnect.UserInterface.List.PluginListHeaderItem;
-import org.kde.kdeconnect_tp.R;
-import org.kde.kdeconnect_tp.databinding.ActivityDeviceBinding;
-import org.kde.kdeconnect_tp.databinding.ViewPairErrorBinding;
-import org.kde.kdeconnect_tp.databinding.ViewPairRequestBinding;
+import com.android.cts.kdeconnect.BackgroundService;
+import com.android.cts.kdeconnect.Device;
+import com.android.cts.kdeconnect.Helpers.SecurityHelpers.SslHelper;
+import com.android.cts.kdeconnect.Plugins.BatteryPlugin.BatteryPlugin;
+import com.android.cts.kdeconnect.Plugins.BatteryPlugin.DeviceBatteryInfo;
+import com.android.cts.kdeconnect.Plugins.Plugin;
+import com.android.cts.kdeconnect.UserInterface.List.FailedPluginListItem;
+import com.android.cts.kdeconnect.UserInterface.List.ListAdapter;
+import com.android.cts.kdeconnect.UserInterface.List.PluginItem;
+import com.android.cts.kdeconnect.UserInterface.List.PluginListHeaderItem;
+import com.android.cts.kdeconnect_tp.R;
+import com.android.cts.kdeconnect_tp.databinding.ActivityDeviceBinding;
+import com.android.cts.kdeconnect_tp.databinding.ViewPairErrorBinding;
+import com.android.cts.kdeconnect_tp.databinding.ViewPairRequestBinding;
 
 import java.util.ArrayList;
 import java.util.Collection;

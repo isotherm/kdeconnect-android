@@ -1,4 +1,4 @@
-package org.kde.kdeconnect.Plugins.SftpPlugin;
+package com.android.cts.kdeconnect.Plugins.SftpPlugin;
 
 import android.annotation.TargetApi;
 import android.app.Activity;
@@ -28,9 +28,9 @@ import androidx.preference.PreferenceDialogFragmentCompat;
 
 import org.json.JSONException;
 import org.json.JSONObject;
-import org.kde.kdeconnect.Helpers.StorageHelper;
-import org.kde.kdeconnect_tp.R;
-import org.kde.kdeconnect_tp.databinding.FragmentStoragePreferenceDialogBinding;
+import com.android.cts.kdeconnect.Helpers.StorageHelper;
+import com.android.cts.kdeconnect_tp.R;
+import com.android.cts.kdeconnect_tp.databinding.FragmentStoragePreferenceDialogBinding;
 
 public class StoragePreferenceDialogFragment extends PreferenceDialogFragmentCompat implements TextWatcher {
     private static final int REQUEST_CODE_DOCUMENT_TREE = 1001;

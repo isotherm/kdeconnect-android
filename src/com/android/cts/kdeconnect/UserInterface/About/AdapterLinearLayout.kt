@@ -4,7 +4,7 @@
  * SPDX-License-Identifier: GPL-2.0-only OR GPL-3.0-only OR LicenseRef-KDE-Accepted-GPL
  */
 
-package org.kde.kdeconnect.UserInterface.About
+package com.android.cts.kdeconnect.UserInterface.About
 
 import android.content.Context
 import android.database.DataSetObserver

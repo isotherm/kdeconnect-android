@@ -1,4 +1,4 @@
-package org.kde.kdeconnect.Plugins.RunCommandPlugin;
+package com.android.cts.kdeconnect.Plugins.RunCommandPlugin;
 
 import android.app.PendingIntent;
 import android.appwidget.AppWidgetManager;
@@ -12,9 +12,9 @@ import android.util.Log;
 import android.view.View;
 import android.widget.RemoteViews;
 
-import org.kde.kdeconnect.BackgroundService;
-import org.kde.kdeconnect.Device;
-import org.kde.kdeconnect_tp.R;
+import com.android.cts.kdeconnect.BackgroundService;
+import com.android.cts.kdeconnect.Device;
+import com.android.cts.kdeconnect_tp.R;
 
 public class RunCommandWidget extends AppWidgetProvider {
 

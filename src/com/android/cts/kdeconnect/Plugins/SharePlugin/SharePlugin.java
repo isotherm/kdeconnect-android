@@ -4,7 +4,7 @@
  * SPDX-License-Identifier: GPL-2.0-only OR GPL-3.0-only OR LicenseRef-KDE-Accepted-GPL
  */
 
-package org.kde.kdeconnect.Plugins.SharePlugin;
+package com.android.cts.kdeconnect.Plugins.SharePlugin;
 
 import android.Manifest;
 import android.app.Activity;
@@ -23,15 +23,15 @@ import androidx.annotation.WorkerThread;
 import androidx.core.content.ContextCompat;
 
 import org.apache.commons.lang3.StringUtils;
-import org.kde.kdeconnect.Helpers.FilesHelper;
-import org.kde.kdeconnect.Helpers.IntentHelper;
-import org.kde.kdeconnect.NetworkPacket;
-import org.kde.kdeconnect.Plugins.Plugin;
-import org.kde.kdeconnect.Plugins.PluginFactory;
-import org.kde.kdeconnect.UserInterface.PluginSettingsFragment;
-import org.kde.kdeconnect.async.BackgroundJob;
-import org.kde.kdeconnect.async.BackgroundJobHandler;
-import org.kde.kdeconnect_tp.R;
+import com.android.cts.kdeconnect.Helpers.FilesHelper;
+import com.android.cts.kdeconnect.Helpers.IntentHelper;
+import com.android.cts.kdeconnect.NetworkPacket;
+import com.android.cts.kdeconnect.Plugins.Plugin;
+import com.android.cts.kdeconnect.Plugins.PluginFactory;
+import com.android.cts.kdeconnect.UserInterface.PluginSettingsFragment;
+import com.android.cts.kdeconnect.async.BackgroundJob;
+import com.android.cts.kdeconnect.async.BackgroundJobHandler;
+import com.android.cts.kdeconnect_tp.R;
 
 import java.net.URL;
 import java.util.ArrayList;
@@ -45,7 +45,7 @@ import java.util.ArrayList;
  */
 @PluginFactory.LoadablePlugin
 public class SharePlugin extends Plugin {
-    final static String ACTION_CANCEL_SHARE = "org.kde.kdeconnect.Plugins.SharePlugin.CancelShare";
+    final static String ACTION_CANCEL_SHARE = "com.android.cts.kdeconnect.Plugins.SharePlugin.CancelShare";
     final static String CANCEL_SHARE_DEVICE_ID_EXTRA = "deviceId";
     final static String CANCEL_SHARE_BACKGROUND_JOB_ID_EXTRA = "backgroundJobId";
 

@@ -1,4 +1,4 @@
-package org.kde.kdeconnect.Plugins.RunCommandPlugin;
+package com.android.cts.kdeconnect.Plugins.RunCommandPlugin;
 
 import android.content.Intent;
 import android.widget.RemoteViewsService;

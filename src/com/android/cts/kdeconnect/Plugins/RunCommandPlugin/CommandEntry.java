@@ -4,9 +4,9 @@
  * SPDX-License-Identifier: GPL-2.0-only OR GPL-3.0-only OR LicenseRef-KDE-Accepted-GPL
 */
 
-package org.kde.kdeconnect.Plugins.RunCommandPlugin;
+package com.android.cts.kdeconnect.Plugins.RunCommandPlugin;
 
-import org.kde.kdeconnect.UserInterface.List.EntryItem;
+import com.android.cts.kdeconnect.UserInterface.List.EntryItem;
 
 class CommandEntry extends EntryItem {
     private final String key;

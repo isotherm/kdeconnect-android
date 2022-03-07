@@ -4,10 +4,10 @@
  * SPDX-License-Identifier: GPL-2.0-only OR GPL-3.0-only OR LicenseRef-KDE-Accepted-GPL
 */
 
-package org.kde.kdeconnect.Backends;
+package com.android.cts.kdeconnect.Backends;
 
-import org.kde.kdeconnect.Device;
-import org.kde.kdeconnect.NetworkPacket;
+import com.android.cts.kdeconnect.Device;
+import com.android.cts.kdeconnect.NetworkPacket;
 
 /**
  * This class separates the pairing interface for each type of link.

@@ -6,7 +6,7 @@
  * SPDX-License-Identifier: GPL-2.0-only OR GPL-3.0-only OR LicenseRef-KDE-Accepted-GPL
  */
 
-package org.kde.kdeconnect.Plugins.SMSPlugin;
+package com.android.cts.kdeconnect.Plugins.SMSPlugin;
 
 import android.Manifest;
 import android.annotation.SuppressLint;
@@ -30,14 +30,14 @@ import android.telephony.SmsMessage;
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
-import org.kde.kdeconnect.Helpers.ContactsHelper;
-import org.kde.kdeconnect.Helpers.SMSHelper;
-import org.kde.kdeconnect.NetworkPacket;
-import org.kde.kdeconnect.Plugins.Plugin;
-import org.kde.kdeconnect.Plugins.PluginFactory;
-import org.kde.kdeconnect.Plugins.TelephonyPlugin.TelephonyPlugin;
-import org.kde.kdeconnect_tp.BuildConfig;
-import org.kde.kdeconnect_tp.R;
+import com.android.cts.kdeconnect.Helpers.ContactsHelper;
+import com.android.cts.kdeconnect.Helpers.SMSHelper;
+import com.android.cts.kdeconnect.NetworkPacket;
+import com.android.cts.kdeconnect.Plugins.Plugin;
+import com.android.cts.kdeconnect.Plugins.PluginFactory;
+import com.android.cts.kdeconnect.Plugins.TelephonyPlugin.TelephonyPlugin;
+import com.android.cts.kdeconnect_tp.BuildConfig;
+import com.android.cts.kdeconnect_tp.R;
 
 import java.util.ArrayList;
 import java.util.Collection;
@@ -53,7 +53,7 @@ import com.klinker.android.send_message.Transaction;
 import com.klinker.android.send_message.Utils;
 import com.klinker.android.logger.Log;
 
-import static org.kde.kdeconnect.Plugins.TelephonyPlugin.TelephonyPlugin.PACKET_TYPE_TELEPHONY;
+import static com.android.cts.kdeconnect.Plugins.TelephonyPlugin.TelephonyPlugin.PACKET_TYPE_TELEPHONY;
 
 @PluginFactory.LoadablePlugin
 @SuppressLint("InlinedApi")

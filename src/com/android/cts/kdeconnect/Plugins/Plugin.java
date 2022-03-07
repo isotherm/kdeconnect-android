@@ -4,7 +4,7 @@
  * SPDX-License-Identifier: GPL-2.0-only OR GPL-3.0-only OR LicenseRef-KDE-Accepted-GPL
 */
 
-package org.kde.kdeconnect.Plugins;
+package com.android.cts.kdeconnect.Plugins;
 
 import android.app.Activity;
 import android.content.Context;
@@ -21,13 +21,13 @@ import androidx.core.content.ContextCompat;
 import androidx.fragment.app.DialogFragment;
 
 import org.apache.commons.lang3.ArrayUtils;
-import org.kde.kdeconnect.Device;
-import org.kde.kdeconnect.NetworkPacket;
-import org.kde.kdeconnect.UserInterface.AlertDialogFragment;
-import org.kde.kdeconnect.UserInterface.MainActivity;
-import org.kde.kdeconnect.UserInterface.PermissionsAlertDialogFragment;
-import org.kde.kdeconnect.UserInterface.PluginSettingsFragment;
-import org.kde.kdeconnect_tp.R;
+import com.android.cts.kdeconnect.Device;
+import com.android.cts.kdeconnect.NetworkPacket;
+import com.android.cts.kdeconnect.UserInterface.AlertDialogFragment;
+import com.android.cts.kdeconnect.UserInterface.MainActivity;
+import com.android.cts.kdeconnect.UserInterface.PermissionsAlertDialogFragment;
+import com.android.cts.kdeconnect.UserInterface.PluginSettingsFragment;
+import com.android.cts.kdeconnect_tp.R;
 
 public abstract class Plugin {
     protected Device device;

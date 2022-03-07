@@ -1,4 +1,4 @@
-package org.kde.kdeconnect.UserInterface;
+package com.android.cts.kdeconnect.UserInterface;
 
 import android.Manifest;
 import android.app.Activity;
@@ -30,14 +30,14 @@ import androidx.preference.PreferenceManager;
 import com.google.android.material.navigation.NavigationView;
 
 import org.apache.commons.lang3.ArrayUtils;
-import org.kde.kdeconnect.BackgroundService;
-import org.kde.kdeconnect.Device;
-import org.kde.kdeconnect.Helpers.DeviceHelper;
-import org.kde.kdeconnect.Plugins.SharePlugin.ShareSettingsFragment;
-import org.kde.kdeconnect.UserInterface.About.AboutFragment;
-import org.kde.kdeconnect.UserInterface.About.ApplicationAboutDataKt;
-import org.kde.kdeconnect_tp.R;
-import org.kde.kdeconnect_tp.databinding.ActivityMainBinding;
+import com.android.cts.kdeconnect.BackgroundService;
+import com.android.cts.kdeconnect.Device;
+import com.android.cts.kdeconnect.Helpers.DeviceHelper;
+import com.android.cts.kdeconnect.Plugins.SharePlugin.ShareSettingsFragment;
+import com.android.cts.kdeconnect.UserInterface.About.AboutFragment;
+import com.android.cts.kdeconnect.UserInterface.About.ApplicationAboutDataKt;
+import com.android.cts.kdeconnect_tp.R;
+import com.android.cts.kdeconnect_tp.databinding.ActivityMainBinding;
 
 import java.util.Collection;
 import java.util.HashMap;

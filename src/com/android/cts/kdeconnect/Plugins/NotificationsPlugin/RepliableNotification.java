@@ -1,4 +1,4 @@
-package org.kde.kdeconnect.Plugins.NotificationsPlugin;
+package com.android.cts.kdeconnect.Plugins.NotificationsPlugin;
 
 import android.app.PendingIntent;
 

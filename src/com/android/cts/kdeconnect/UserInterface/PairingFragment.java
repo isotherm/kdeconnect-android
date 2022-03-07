@@ -4,7 +4,7 @@
  * SPDX-License-Identifier: GPL-2.0-only OR GPL-3.0-only OR LicenseRef-KDE-Accepted-GPL
  */
 
-package org.kde.kdeconnect.UserInterface;
+package com.android.cts.kdeconnect.UserInterface;
 
 import android.app.Activity;
 import android.content.Context;
@@ -30,17 +30,17 @@ import androidx.annotation.NonNull;
 import androidx.core.content.ContextCompat;
 import androidx.fragment.app.Fragment;
 
-import org.kde.kdeconnect.BackgroundService;
-import org.kde.kdeconnect.Device;
-import org.kde.kdeconnect.Helpers.TrustedNetworkHelper;
-import org.kde.kdeconnect.UserInterface.List.ListAdapter;
-import org.kde.kdeconnect.UserInterface.List.PairingDeviceItem;
-import org.kde.kdeconnect.UserInterface.List.SectionItem;
-import org.kde.kdeconnect_tp.R;
-import org.kde.kdeconnect_tp.databinding.DevicesListBinding;
-import org.kde.kdeconnect_tp.databinding.PairingExplanationNotTrustedBinding;
-import org.kde.kdeconnect_tp.databinding.PairingExplanationTextBinding;
-import org.kde.kdeconnect_tp.databinding.PairingExplanationTextNoWifiBinding;
+import com.android.cts.kdeconnect.BackgroundService;
+import com.android.cts.kdeconnect.Device;
+import com.android.cts.kdeconnect.Helpers.TrustedNetworkHelper;
+import com.android.cts.kdeconnect.UserInterface.List.ListAdapter;
+import com.android.cts.kdeconnect.UserInterface.List.PairingDeviceItem;
+import com.android.cts.kdeconnect.UserInterface.List.SectionItem;
+import com.android.cts.kdeconnect_tp.R;
+import com.android.cts.kdeconnect_tp.databinding.DevicesListBinding;
+import com.android.cts.kdeconnect_tp.databinding.PairingExplanationNotTrustedBinding;
+import com.android.cts.kdeconnect_tp.databinding.PairingExplanationTextBinding;
+import com.android.cts.kdeconnect_tp.databinding.PairingExplanationTextNoWifiBinding;
 
 import java.util.ArrayList;
 import java.util.Collection;

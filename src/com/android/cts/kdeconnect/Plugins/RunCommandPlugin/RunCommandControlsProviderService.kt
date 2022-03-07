@@ -4,7 +4,7 @@
  * SPDX-License-Identifier: GPL-2.0-only OR GPL-3.0-only OR LicenseRef-KDE-Accepted-GPL
  */
 
-package org.kde.kdeconnect.Plugins.RunCommandPlugin
+package com.android.cts.kdeconnect.Plugins.RunCommandPlugin
 
 import android.app.PendingIntent
 import android.content.Intent
@@ -22,10 +22,10 @@ import io.reactivex.Flowable
 import io.reactivex.processors.ReplayProcessor
 import org.json.JSONArray
 import org.json.JSONException
-import org.kde.kdeconnect.BackgroundService
-import org.kde.kdeconnect.Device
-import org.kde.kdeconnect.UserInterface.MainActivity
-import org.kde.kdeconnect_tp.R
+import com.android.cts.kdeconnect.BackgroundService
+import com.android.cts.kdeconnect.Device
+import com.android.cts.kdeconnect.UserInterface.MainActivity
+import com.android.cts.kdeconnect_tp.R
 import org.reactivestreams.FlowAdapters
 import java.util.*
 import java.util.concurrent.Flow

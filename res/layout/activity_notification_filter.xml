@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:tools="http://schemas.android.com/tools"
-    tools:context="org.kde.kdeconnect.Plugins.NotificationsPlugin.NotificationFilterActivity">
+    tools:context="com.android.cts.kdeconnect.Plugins.NotificationsPlugin.NotificationFilterActivity">
 
     <include layout="@layout/toolbar" android:id="@+id/toolbar_layout" />
 
@@ -13,7 +13,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
-        tools:context="org.kde.kdeconnect.Plugins.NotificationsPlugin.NotificationFilterActivity"
+        tools:context="com.android.cts.kdeconnect.Plugins.NotificationsPlugin.NotificationFilterActivity"
         app:layout_behavior="@string/appbar_scrolling_view_behavior">
 
         <com.google.android.material.switchmaterial.SwitchMaterial

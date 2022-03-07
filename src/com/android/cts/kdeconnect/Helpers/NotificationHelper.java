@@ -1,4 +1,4 @@
-package org.kde.kdeconnect.Helpers;
+package com.android.cts.kdeconnect.Helpers;
 
 import android.app.Notification;
 import android.app.NotificationChannel;
@@ -10,7 +10,7 @@ import android.preference.PreferenceManager;
 
 import androidx.core.content.ContextCompat;
 
-import org.kde.kdeconnect_tp.R;
+import com.android.cts.kdeconnect_tp.R;
 
 public class NotificationHelper {
 

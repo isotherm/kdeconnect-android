@@ -4,7 +4,7 @@
  * SPDX-License-Identifier: GPL-2.0-only OR GPL-3.0-only OR LicenseRef-KDE-Accepted-GPL
  */
 
-package org.kde.kdeconnect.UserInterface.About
+package com.android.cts.kdeconnect.UserInterface.About
 
 import android.animation.ValueAnimator
 import android.content.pm.ActivityInfo
@@ -17,8 +17,8 @@ import android.os.Bundle
 import android.view.View
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.content.ContextCompat
-import org.kde.kdeconnect_tp.R
-import org.kde.kdeconnect_tp.databinding.ActivityEasterEggBinding
+import com.android.cts.kdeconnect_tp.R
+import com.android.cts.kdeconnect_tp.databinding.ActivityEasterEggBinding
 import kotlin.math.PI
 import kotlin.math.atan2
 

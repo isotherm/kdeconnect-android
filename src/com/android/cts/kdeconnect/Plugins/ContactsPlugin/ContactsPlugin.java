@@ -7,21 +7,21 @@
  * SPDX-License-Identifier: GPL-2.0-only OR GPL-3.0-only OR LicenseRef-KDE-Accepted-GPL
  */
 
-package org.kde.kdeconnect.Plugins.ContactsPlugin;
+package com.android.cts.kdeconnect.Plugins.ContactsPlugin;
 
 import android.Manifest;
 import android.annotation.TargetApi;
 import android.os.Build;
 import android.util.Log;
 
-import org.kde.kdeconnect.Helpers.ContactsHelper;
-import org.kde.kdeconnect.Helpers.ContactsHelper.VCardBuilder;
-import org.kde.kdeconnect.Helpers.ContactsHelper.uID;
-import org.kde.kdeconnect.Helpers.ContactsHelper.ContactNotFoundException;
-import org.kde.kdeconnect.NetworkPacket;
-import org.kde.kdeconnect.Plugins.Plugin;
-import org.kde.kdeconnect.Plugins.PluginFactory;
-import org.kde.kdeconnect_tp.R;
+import com.android.cts.kdeconnect.Helpers.ContactsHelper;
+import com.android.cts.kdeconnect.Helpers.ContactsHelper.VCardBuilder;
+import com.android.cts.kdeconnect.Helpers.ContactsHelper.uID;
+import com.android.cts.kdeconnect.Helpers.ContactsHelper.ContactNotFoundException;
+import com.android.cts.kdeconnect.NetworkPacket;
+import com.android.cts.kdeconnect.Plugins.Plugin;
+import com.android.cts.kdeconnect.Plugins.PluginFactory;
+import com.android.cts.kdeconnect_tp.R;
 
 import java.util.ArrayList;
 import java.util.HashSet;
