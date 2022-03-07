@@ -2,6 +2,10 @@
 
 KDE Connect is a multi-platform app that allows your devices to communicate (eg: your phone and your computer).
 
+## Flip phone edition
+
+This is a special fork for the LG Exalt, LG Classic Flip, Kyocera and other AOSP-build flip phones. The package has been renamed to allow installation on those devices. All other users should refer to the [original repo](https://github.com/KDE/kdeconnect-android/).
+
 ## (Some) Features
 - **Shared clipboard**: copy and paste between your phone and your computer (or any other device).
 - **Notification sync**: Read and reply to your Android notifications from the desktop.
